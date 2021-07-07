@@ -1,0 +1,230 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+MERGED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:3:1-100:12
+MERGED from [:OVRPlugin:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/8b5a88cfa4c83dd348e784710f99a57b/OVRPlugin/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+	package
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:70-108
+		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:109-155
+	android:versionCode
+		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:11-69
+	android:installLocation
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:156-186
+supports-screens
+ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:3-163
+	android:largeScreens
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:78-105
+	android:smallScreens
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:21-48
+	android:normalScreens
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:49-77
+	android:xlargeScreens
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:106-134
+	android:anyDensity
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:135-160
+application
+ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-116
+MERGED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:5-98:19
+MERGED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:5-98:19
+	android:extractNativeLibs
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
+	android:label
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-81
+	android:allowBackup
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:9-36
+	android:icon
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:82-113
+	android:networkSecurityConfig
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:48:9-64
+uses-sdk
+INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+MERGED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-12:41
+MERGED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-12:41
+MERGED from [:OVRPlugin:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/8b5a88cfa4c83dd348e784710f99a57b/OVRPlugin/AndroidManifest.xml:7:5-47
+MERGED from [:OVRPlugin:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/8b5a88cfa4c83dd348e784710f99a57b/OVRPlugin/AndroidManifest.xml:7:5-47
+INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		MERGED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:14:19-51
+supports-gl-texture#GL_KHR_texture_compression_astc_ldr
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:16:26-76
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:19:5-71
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:19:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:20:22-77
+uses-feature#android.hardware.microphone
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:23:9-51
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:26:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:5-33:36
+	android:required
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:32:9-72
+uses-feature#android.hardware.vr.headtracking
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:5-37:31
+	android:version
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:9-28
+	android:required
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:9-32
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:9-56
+uses-feature#oculus.software.handtracking
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:9-52
+uses-permission#com.oculus.permission.HAND_TRACKING
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:5-75
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:22-72
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:9-72:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:13-50
+	android:launchMode
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:13-48
+	android:configChanges
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:13-114
+	android:theme
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:55:13-77
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:50:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:com.oculus.intent.category.VR
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:13-61:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:17-69
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:17-77
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:27-74
+category#com.oculus.intent.category.VR
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:17-74
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:27-71
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:63:13-65:40
+	android:value
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:65:17-37
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:64:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:66:13-68:40
+	android:value
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:68:17-37
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:67:17-53
+meta-data#com.oculus.vr.focusaware
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:69:13-71:40
+	android:value
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:71:17-37
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:70:17-56
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:74:9-76:33
+	android:value
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:76:13-30
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:75:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:77:9-79:36
+	android:value
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:79:13-33
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:78:13-47
+meta-data#notch.config
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:80:9-82:50
+	android:value
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:82:13-47
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:81:13-40
+meta-data#unity.build-id
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:83:9-85:68
+	android:value
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:85:13-65
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:84:13-42
+meta-data#com.samsung.android.vr.application.mode
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:86:9-88:39
+	android:value
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:88:13-36
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:87:13-67
+meta-data#com.unity.xr.oculus.LowOverheadMode
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:89:9-91:37
+	android:value
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:91:13-34
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:90:13-63
+meta-data#com.oculus.supportedDevices
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:92:9-94:44
+	android:value
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:94:13-41
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:93:13-55
+meta-data#com.oculus.handtracking.frequency
+ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:95:9-97:36
+	android:value
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:97:13-33
+	android:name
+		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:96:13-61
