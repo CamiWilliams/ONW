@@ -46,8 +46,6 @@ Once the player has completed each of the 4 stages, they will hit the final butt
 * Stage 3: Simon Says
 	* Logic to enter new scene and return to main scene
 	* Animation to new scene
-	* New scene environment
-	* Gesture recognition
 	* Simon says game logic and UI elements
 * Main Menu
 	* Start game 
