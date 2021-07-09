@@ -11,12 +11,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 9c81866070ac94e069e88774ae235a97
-  - enabled: 1
-    path: Assets/Scenes/ONWScene.unity
-    guid: ecca7995df14d4d5e9a0792601b7181a
   - enabled: 0
+    path: Assets/Scenes/GameScene.unity
+    guid: ecca7995df14d4d5e9a0792601b7181a
+  - enabled: 1
     path: Assets/Scenes/HandSimonSays.unity
-    guid: ff3a347d9c4db4fdf9a398114317d5cb
+    guid: c50ab67b4f3fa4e9a86d075742536c01
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/VRHandGestures/DemoScene/DemoGame.unity
+    guid: da9a41f7c9af2794cb2526b2a08275ec
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8fccb80e6c9a84389a75f2c1ed4d786d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d3134b6f939114be9b8d6dbeff42d453, type: 2}

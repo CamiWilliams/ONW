@@ -140,7 +140,6 @@
     <Compile Include="Assets/Defaults Library/Scripts/Actions/RemoveObjectsWithTag.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTargetHandlerPhysical.cs" />
-    <Compile Include="Assets/GestureDetector.cs" />
     <Compile Include="Assets/Custom Scripts/StumpInteractable.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainTrack.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/DistanceGrabber.cs" />
@@ -277,6 +276,16 @@
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrackSegment.cs" />
     <Compile Include="Assets/TargetArea.cs" />
+    <Compile Include="Assets/VRHandGestures/GestureDetection/Libraries/SocialGestures.cs" />
+    <Compile Include="Assets/VRHandGestures/GestureDetection/GestureLibrary.cs" />
+    <Compile Include="Assets/VRHandGestures/GestureDetection/Libraries/ASLGestures.cs" />
+    <Compile Include="Assets/VRHandGestures/GestureDetection/Libraries/ExampleGestures.cs" />
+    <Compile Include="Assets/VRHandGestures/GestureDetection/HandManager.cs" />
+    <Compile Include="Assets/VRHandGestures/GestureDetection/Libraries/ASLphabetGestures.cs" />
+    <Compile Include="Assets/SimonSaysManager.cs" />
+    <Compile Include="Assets/Custom Scripts/HandTracking/GameManager.cs" />
+    <Compile Include="Assets/Custom Scripts/HandTracking/HandGUI.cs" />
+    <Compile Include="Assets/Custom Scripts/HandTracking/SoundManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/XingLightShader.shader" />
@@ -301,6 +310,7 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_CombinedMeshExpressive.shader" />
     <None Include="Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_PC_SingleComponent.shader" />
+    <None Include="Assets/Scenes/Text/TextShader.shader" />
     <None Include="Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBSV2.shader" />
     <None Include="Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_CombinedMesh.shader" />
     <None Include="Assets/Oculus/SampleFramework/Core/Video/Shaders/Multiview Stereo.shader" />

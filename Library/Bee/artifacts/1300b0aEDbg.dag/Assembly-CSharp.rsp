@@ -360,6 +360,9 @@
 "Assets/Custom Scripts/FinaleSequence.cs"
 "Assets/Custom Scripts/GameMenuLogic.cs"
 "Assets/Custom Scripts/HandAnimator.cs"
+"Assets/Custom Scripts/HandTracking/GameManager.cs"
+"Assets/Custom Scripts/HandTracking/HandGUI.cs"
+"Assets/Custom Scripts/HandTracking/SoundManager.cs"
 "Assets/Custom Scripts/Locomotion.cs"
 "Assets/Custom Scripts/MemoryPlatforms.cs"
 "Assets/Custom Scripts/OutOfBounds.cs"
@@ -425,7 +428,6 @@
 "Assets/Defaults Library/Scripts/Testing/Notes.cs"
 "Assets/Defaults Library/Scripts/Testing/TeleportAnchorWithFade.cs"
 "Assets/Defaults Library/Scripts/Testing/TeleportAreaWithFade.cs"
-"Assets/GestureDetector.cs"
 "Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs"
 "Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs"
 "Assets/Oculus/AudioManager/Scripts/Audio/AudioManager.cs"
@@ -569,7 +571,14 @@
 "Assets/Oculus/Spatializer/scripts/ONSPVersion.cs"
 "Assets/RockWall.cs"
 "Assets/SimonSays.cs"
+"Assets/SimonSaysManager.cs"
 "Assets/TargetArea.cs"
+"Assets/VRHandGestures/GestureDetection/GestureLibrary.cs"
+"Assets/VRHandGestures/GestureDetection/HandManager.cs"
+"Assets/VRHandGestures/GestureDetection/Libraries/ASLGestures.cs"
+"Assets/VRHandGestures/GestureDetection/Libraries/ASLphabetGestures.cs"
+"Assets/VRHandGestures/GestureDetection/Libraries/ExampleGestures.cs"
+"Assets/VRHandGestures/GestureDetection/Libraries/SocialGestures.cs"
 -langversion:8.0
 
 /deterministic
