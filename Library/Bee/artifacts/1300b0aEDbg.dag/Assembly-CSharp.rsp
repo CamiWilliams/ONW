@@ -569,6 +569,7 @@
 "Assets/Oculus/Spatializer/scripts/ONSPVersion.cs"
 "Assets/RockWall.cs"
 "Assets/SimonSays.cs"
+"Assets/TargetArea.cs"
 -langversion:8.0
 
 /deterministic

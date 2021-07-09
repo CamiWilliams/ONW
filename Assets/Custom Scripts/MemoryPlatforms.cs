@@ -104,6 +104,7 @@ public class MemoryPlatforms : MonoBehaviour
 
     private void AnimatePlatforms()
     {
+        //TODO use this variable
         isAnimating = true;
         seqIndex++;
         unhighlightAll();

@@ -1,26 +1,39 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - GestureDetector
+    - BallScript
+    - BoatScoreArea
+    - ClimbInteractable
+    - Climber
+    - FinaleSequence
+    - GameMenuLogic
+    - HandAnimator
+    - MemoryPlatforms
     - ONSPSettings
+    - OVRTouchSample.Hand
+    - OVRTouchSample.HandPose
+    - OutOfBounds
+    - RockWall
+    - Scoreboard
+    - SimonSays
+    - StageManager
+    - StumpInteractable
+    - TargetArea
+    - ThrowingSequence
     Oculus.Platform.dll:
     - Oculus.Platform.PlatformSettings
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
     Oculus.VR.dll:
-    - OVRCameraRig
-    - OVRHand
-    - OVRHeadsetEmulator
-    - OVRManager
-    - OVRMesh
-    - OVRMeshRenderer
-    - OVRSkeleton
-    - OVRSkeletonRenderer
+    - OVRGrabber
     Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.XR.TrackedPoseDriver
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -53,6 +66,7 @@ ScriptsOnlyBuild:
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.ForwardRendererData
     - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
@@ -62,6 +76,22 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.XR.Interaction.Toolkit.dll:
+    - UnityEngine.XR.Interaction.Toolkit.ActionBasedContinuousMoveProvider
+    - UnityEngine.XR.Interaction.Toolkit.ActionBasedController
+    - UnityEngine.XR.Interaction.Toolkit.ActionBasedSnapTurnProvider
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
+    - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
+    - UnityEngine.XR.Interaction.Toolkit.TeleportationAnchor
+    - UnityEngine.XR.Interaction.Toolkit.TeleportationProvider
+    - UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster
+    - UnityEngine.XR.Interaction.Toolkit.UI.XRUIInputModule
+    - UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable
+    - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
+    - UnityEngine.XR.Interaction.Toolkit.XRInteractorLineVisual
+    - UnityEngine.XR.Interaction.Toolkit.XRRayInteractor
+    - UnityEngine.XR.Interaction.Toolkit.XRRig
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -96,6 +126,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -104,13 +135,14 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/HandSimonSays.unity:
+    Assets/Scenes/ONWScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -131,16 +163,34 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 678}
+    - Class: 114
+      Script: {instanceID: 682}
+    - Class: 114
+      Script: {instanceID: 692}
     - Class: 114
       Script: {instanceID: 1856}
     - Class: 114
@@ -152,27 +202,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1870}
     - Class: 114
+      Script: {instanceID: 1906}
+    - Class: 114
       Script: {instanceID: 2036}
     - Class: 114
-      Script: {instanceID: 2416}
+      Script: {instanceID: 2212}
     - Class: 114
       Script: {instanceID: 2468}
     - Class: 114
-      Script: {instanceID: 2532}
-    - Class: 114
       Script: {instanceID: 2538}
+    - Class: 114
+      Script: {instanceID: 2572}
+    - Class: 114
+      Script: {instanceID: 2720}
     - Class: 114
       Script: {instanceID: 2732}
     - Class: 114
-      Script: {instanceID: 2746}
+      Script: {instanceID: 2736}
     - Class: 114
       Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 3198}
+      Script: {instanceID: 2916}
+    - Class: 114
+      Script: {instanceID: 3100}
+    - Class: 114
+      Script: {instanceID: 3170}
+    - Class: 114
+      Script: {instanceID: 3266}
+    - Class: 114
+      Script: {instanceID: 3378}
     - Class: 114
       Script: {instanceID: 3658}
     - Class: 114
-      Script: {instanceID: 3754}
+      Script: {instanceID: 3748}
     - Class: 114
       Script: {instanceID: 3822}
     - Class: 114
@@ -180,88 +242,144 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3924}
     - Class: 114
+      Script: {instanceID: 4040}
+    - Class: 114
       Script: {instanceID: 4068}
+    - Class: 114
+      Script: {instanceID: 4114}
     - Class: 114
       Script: {instanceID: 4214}
     - Class: 114
+      Script: {instanceID: 4296}
+    - Class: 114
+      Script: {instanceID: 4332}
+    - Class: 114
+      Script: {instanceID: 4376}
+    - Class: 114
+      Script: {instanceID: 4520}
+    - Class: 114
+      Script: {instanceID: 4524}
+    - Class: 114
+      Script: {instanceID: 4590}
+    - Class: 114
       Script: {instanceID: 4604}
     - Class: 114
-      Script: {instanceID: 4752}
+      Script: {instanceID: 4688}
     - Class: 114
-      Script: {instanceID: 4812}
+      Script: {instanceID: 4754}
     - Class: 114
-      Script: {instanceID: 4902}
+      Script: {instanceID: 4904}
     - Class: 114
-      Script: {instanceID: 5108}
+      Script: {instanceID: 4928}
     - Class: 114
-      Script: {instanceID: 5226}
+      Script: {instanceID: 5110}
     - Class: 114
-      Script: {instanceID: 5486}
+      Script: {instanceID: 5228}
     - Class: 114
-      Script: {instanceID: 6068}
+      Script: {instanceID: 5352}
     - Class: 114
-      Script: {instanceID: 6088}
+      Script: {instanceID: 5488}
     - Class: 114
-      Script: {instanceID: 6154}
+      Script: {instanceID: 5730}
     - Class: 114
-      Script: {instanceID: 6168}
+      Script: {instanceID: 5866}
     - Class: 114
-      Script: {instanceID: 6202}
+      Script: {instanceID: 6070}
     - Class: 114
-      Script: {instanceID: 6398}
+      Script: {instanceID: 6090}
+    - Class: 114
+      Script: {instanceID: 6156}
+    - Class: 114
+      Script: {instanceID: 6170}
     - Class: 114
       Script: {instanceID: 6400}
     - Class: 114
-      Script: {instanceID: 6432}
+      Script: {instanceID: 6402}
     - Class: 114
-      Script: {instanceID: 6730}
+      Script: {instanceID: 6434}
     - Class: 114
-      Script: {instanceID: 6852}
+      Script: {instanceID: 6712}
     - Class: 114
-      Script: {instanceID: 7004}
+      Script: {instanceID: 6732}
     - Class: 114
-      Script: {instanceID: 7096}
+      Script: {instanceID: 6734}
     - Class: 114
-      Script: {instanceID: 7106}
+      Script: {instanceID: 6854}
     - Class: 114
-      Script: {instanceID: 7230}
+      Script: {instanceID: 7006}
     - Class: 114
-      Script: {instanceID: 7278}
+      Script: {instanceID: 7016}
     - Class: 114
-      Script: {instanceID: 7326}
+      Script: {instanceID: 7072}
     - Class: 114
-      Script: {instanceID: 7426}
+      Script: {instanceID: 7076}
     - Class: 114
-      Script: {instanceID: 7540}
+      Script: {instanceID: 7098}
     - Class: 114
-      Script: {instanceID: 7704}
+      Script: {instanceID: 7108}
     - Class: 114
-      Script: {instanceID: 7844}
+      Script: {instanceID: 7232}
     - Class: 114
-      Script: {instanceID: 7908}
+      Script: {instanceID: 7280}
     - Class: 114
-      Script: {instanceID: 8640}
+      Script: {instanceID: 7328}
     - Class: 114
-      Script: {instanceID: 8646}
+      Script: {instanceID: 7338}
     - Class: 114
-      Script: {instanceID: 8720}
+      Script: {instanceID: 7428}
     - Class: 114
-      Script: {instanceID: 9002}
+      Script: {instanceID: 7542}
     - Class: 114
-      Script: {instanceID: 9314}
+      Script: {instanceID: 7558}
     - Class: 114
-      Script: {instanceID: 9386}
+      Script: {instanceID: 7706}
     - Class: 114
-      Script: {instanceID: 111756}
+      Script: {instanceID: 7846}
+    - Class: 114
+      Script: {instanceID: 7866}
+    - Class: 114
+      Script: {instanceID: 7910}
+    - Class: 114
+      Script: {instanceID: 8628}
+    - Class: 114
+      Script: {instanceID: 8648}
+    - Class: 114
+      Script: {instanceID: 8722}
+    - Class: 114
+      Script: {instanceID: 8956}
+    - Class: 114
+      Script: {instanceID: 9004}
+    - Class: 114
+      Script: {instanceID: 9130}
+    - Class: 114
+      Script: {instanceID: 9236}
+    - Class: 114
+      Script: {instanceID: 9316}
+    - Class: 114
+      Script: {instanceID: 9388}
+    - Class: 114
+      Script: {instanceID: 30408}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
     - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1370,6 +1488,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 2fbc2a1d18c096f851969ca4f8e884a9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GestureDetector
   - hash:
       serializedVersion: 2
       Hash: eab5bd3b00133e5da9183176b8ee43ac
@@ -3340,11 +3464,11 @@ ScriptsOnlyBuild:
     className: TrackSegment
   - hash:
       serializedVersion: 2
-      Hash: 2fbc2a1d18c096f851969ca4f8e884a9
+      Hash: 16484e93db811f6de9bc8971a5b2189f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GestureDetector
+    className: TargetArea
   platform: 13
   scenePathNames:
-  - Assets/Scenes/HandSimonSays.unity
-  playerPath: /Users/cwillycs/Documents/ONW - June - Cami/7.7.apk
+  - Assets/Scenes/ONWScene.unity
+  playerPath: /Users/cwillycs/Documents/ONW - June - Cami/7.9.apk

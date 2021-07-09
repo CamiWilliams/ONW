@@ -23,6 +23,7 @@ public class GestureDetector : MonoBehaviour
     void Start()
     {
         fingerBones = new List<OVRBone>(skeleton.Bones);
+        debugMode = true;
     }
 
     // Update is called once per frame

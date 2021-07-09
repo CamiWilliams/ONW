@@ -22,7 +22,7 @@ public class StumpInteractable : XRBaseInteractable
         isAnimating = Stage1.GetComponent<MemoryPlatforms>().getIsAnimating();
         globalIndex = Stage1.GetComponent<MemoryPlatforms>().getGlobalIndex();
 
-        SignText.GetComponent<TextMeshProUGUI>().text = "_ _ _ _  _ _ _";
+        SignText.GetComponent<TextMeshProUGUI>().text = "_ _ _ _";
     }
 
     // Update is called once per frame
@@ -34,7 +34,7 @@ public class StumpInteractable : XRBaseInteractable
 
         if (globalIndex == -1)
         {
-            SignText.GetComponent<TextMeshProUGUI>().text = "_ _ _ _  _ _ _";
+            SignText.GetComponent<TextMeshProUGUI>().text = "_ _ _ _";
         }
     }
 
@@ -122,7 +122,7 @@ public class StumpInteractable : XRBaseInteractable
             }
             else
             {
-                stringBuilder += "O ";
+                stringBuilder += "0 ";
             }
             index++;
         }

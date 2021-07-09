@@ -32,9 +32,6 @@ public class StageManager : MonoBehaviour
         {
             case 0:
                 Stage1.SetActive(true);
-                Stage2.SetActive(true);
-                Stage3.SetActive(true);
-                Stage4.SetActive(true);
                 break;
             case 1:
                 Stage2.SetActive(true);
