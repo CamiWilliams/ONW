@@ -25,14 +25,14 @@ public class TargetArea : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Stage Enter! " + StageNum);
+        Debug.Log(other.name);
         switch (StageNum)
         {
             case 0:
                 Stage1.GetComponent<MemoryPlatforms>().ShowStage1Animation();
                 break;
             case 1:
-                Stage2.GetComponent<ThrowingSequence>().ShowBoats();
+                Stage2.GetComponent<ThrowingSequence>().ShowBalls();
                 break;
             case 2:
                 Stage3.GetComponent<SimonSays>().StartSimonSays();

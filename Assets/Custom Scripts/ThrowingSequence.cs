@@ -6,30 +6,22 @@ public class ThrowingSequence : MonoBehaviour
 {
     public GameObject Stages;
 
-    private GameObject WoodBoatHard;
-    private GameObject WoodBoatMedium;
-    private GameObject WoodBoatEasy;
+    public GameObject Ball1;
+    public GameObject Ball2;
+    public GameObject Ball3;
 
-    private GameObject EasyParticle;
-    private GameObject MediumParticle;
-    private GameObject HardParticle;
-    private GameObject BallParticle;
+    public GameObject EasyParticle;
+    public GameObject MediumParticle;
+    public GameObject HardParticle;
+    public GameObject BallParticle;
 
     private bool[] boatsHidden = new bool[3];
 
     void Start()
     {
-        WoodBoatHard = GameObject.Find("WoodBoatHard");
-        WoodBoatMedium = GameObject.Find("WoodBoatMedium");
-        WoodBoatEasy = GameObject.Find("WoodBoatEasy");
-        WoodBoatHard.SetActive(false);
-        WoodBoatMedium.SetActive(false);
-        WoodBoatEasy.SetActive(false);
-
-        EasyParticle = GameObject.Find("EasyParticle");
-        MediumParticle = GameObject.Find("MediumParticle");
-        HardParticle = GameObject.Find("HardParticle");
-        BallParticle = GameObject.Find("BallParticle");
+        Ball1.SetActive(false);
+        Ball2.SetActive(false);
+        Ball3.SetActive(false);
     }
 
     // Update is called once per frame
@@ -49,19 +41,23 @@ public class ThrowingSequence : MonoBehaviour
         }
     }
 
-    public void ShowBoats()
+    public void ShowBalls()
     {
-        WoodBoatHard.SetActive(true);
-        WoodBoatMedium.SetActive(true);
-        WoodBoatEasy.SetActive(true);
+        Ball1.SetActive(true);
+        Ball2.SetActive(true);
+        Ball3.SetActive(true);
+
+        BallScript.resetPosition(Ball1);
+        BallScript.resetPosition(Ball2);
+        BallScript.resetPosition(Ball3);
     }
 
     public void StageComplete()
     {
         Debug.Log("Finished Stage 2!");
-        //EasyParticle.SetActive(true);
-        //MediumParticle.SetActive(true);
-        //HardParticle.SetActive(true);
+        EasyParticle.SetActive(true);
+        MediumParticle.SetActive(true);
+        HardParticle.SetActive(true);
         BallParticle.SetActive(true);
         StartCoroutine(HideParticles());
     }
@@ -70,9 +66,9 @@ public class ThrowingSequence : MonoBehaviour
     {
         float sec = 3f;
         yield return new WaitForSeconds(sec);
-        //EasyParticle.SetActive(false);
-        //MediumParticle.SetActive(false);
-        //HardParticle.SetActive(false);
+        EasyParticle.SetActive(false);
+        MediumParticle.SetActive(false);
+        HardParticle.SetActive(false);
         BallParticle.SetActive(false);
     }
 }

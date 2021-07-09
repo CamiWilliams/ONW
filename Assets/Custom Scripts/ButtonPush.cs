@@ -26,7 +26,7 @@ public class ButtonPush : MonoBehaviour
                 Stage1.GetComponent<MemoryPlatforms>().ShowStage1Animation();
                 break;
             case 1:
-                Stage2.GetComponent<ThrowingSequence>().ShowBoats();
+                Stage2.GetComponent<ThrowingSequence>().ShowBalls();
                 break;
             case 2:
                 Stage3.GetComponent<SimonSays>().StartSimonSays();
