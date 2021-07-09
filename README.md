@@ -60,9 +60,7 @@ Once the player has completed each of the 4 stages, they will hit the final butt
 * VRCs
 
 ### Bugs:
-* The colliders on the bridge fence doesn't prevent the user from walking through
 * Sometimes there’s something blocking me from walking past the throwing game and idk what it is
-* The ball moves down the laser pointer when I push forward on the joystick
 * Jitter is HAPPENING.
 
 ### Nice to fix:
