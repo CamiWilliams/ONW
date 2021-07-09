@@ -41,8 +41,6 @@ Once the player has completed each of the 4 stages, they will hit the final butt
 ## Known TODOs (see open issues)
 
 ### Features:
-* Convert buttons to levers
-* Sign rendering for Stage 1 needs to change from 7 placeholders to 4
 * Change from 2 directional lights to 1
 * Timer running out/game over logic and UI
 * Stage 3: Simon Says
@@ -60,7 +58,7 @@ Once the player has completed each of the 4 stages, they will hit the final butt
 	* Avatars to point to lever, guiding user through the game
 * Audio, sound effects, and controller haptics
 * VRCs
-* 
+
 ### Bugs:
 * The colliders on the bridge fence doesn't prevent the user from walking through
 * Sometimes there’s something blocking me from walking past the throwing game and idk what it is
