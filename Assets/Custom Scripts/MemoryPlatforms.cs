@@ -9,24 +9,27 @@ public class MemoryPlatforms : MonoBehaviour
 {
     public GameObject Stages;
 
-    private GameObject PurplePlatform;
-    private GameObject TanPlatform;
-    private GameObject OrangePlatform;
-    private GameObject PinkPlatform;
-    private GameObject RedPlatform;
+    [Header("Main Tree Stumps")]
+    public GameObject PurplePlatform;
+    public GameObject TanPlatform;
+    public GameObject OrangePlatform;
+    public GameObject PinkPlatform;
+    public GameObject RedPlatform;
 
-    private GameObject PurplePlatformHighLighted;
-    private GameObject TanPlatformHighLighted;
-    private GameObject OrangePlatformHighLighted;
-    private GameObject PinkPlatformHighLighted;
-    private GameObject RedPlatformHighLighted;
+    [Header("Highlighted Tree Stumps")]
+    public GameObject PurplePlatformHighLighted;
+    public GameObject TanPlatformHighLighted;
+    public GameObject OrangePlatformHighLighted;
+    public GameObject PinkPlatformHighLighted;
+    public GameObject RedPlatformHighLighted;
 
-    private GameObject SignParticle;
-    private GameObject PurpleParticle;
-    private GameObject TanParticle;
-    private GameObject OrangeParticle;
-    private GameObject PinkParticle;
-    private GameObject RedParticle;
+    [Header("Winner Particles")]
+    public GameObject SignParticle;
+    public GameObject PurpleParticle;
+    public GameObject TanParticle;
+    public GameObject OrangeParticle;
+    public GameObject PinkParticle;
+    public GameObject RedParticle;
 
     private int sequenceLength = 4;
     private int seqIndex = -1;
@@ -38,34 +41,17 @@ public class MemoryPlatforms : MonoBehaviour
 
     void Start()
     {
-        PurplePlatform = GameObject.Find("PurpleTreeStump");
-        TanPlatform = GameObject.Find("TanTreeStump");
-        OrangePlatform = GameObject.Find("OrangeTreeStump");
-        PinkPlatform = GameObject.Find("PinkTreeStump");
-        RedPlatform = GameObject.Find("RedTreeStump");
-
-        PurplePlatformHighLighted = GameObject.Find("PurpleTreeStumpHighlighted");
         PurplePlatformHighLighted.SetActive(false);
-        TanPlatformHighLighted = GameObject.Find("TanTreeStumpHighlighted");
         TanPlatformHighLighted.SetActive(false);
-        OrangePlatformHighLighted = GameObject.Find("OrangeTreeStumpHighlighted");
         OrangePlatformHighLighted.SetActive(false);
-        PinkPlatformHighLighted = GameObject.Find("PinkTreeStumpHighlighted");
         PinkPlatformHighLighted.SetActive(false);
-        RedPlatformHighLighted = GameObject.Find("RedTreeStumpHighlighted");
         RedPlatformHighLighted.SetActive(false);
 
-        SignParticle = GameObject.Find("SignParticle");
         SignParticle.SetActive(false);
-        PurpleParticle = GameObject.Find("PurpleParticle");
         PurpleParticle.SetActive(false);
-        TanParticle = GameObject.Find("TanParticle");
         TanParticle.SetActive(false);
-        OrangeParticle = GameObject.Find("OrangeParticle");
         OrangeParticle.SetActive(false);
-        PinkParticle = GameObject.Find("PinkParticle");
         PinkParticle.SetActive(false);
-        RedParticle = GameObject.Find("RedParticle");
         RedParticle.SetActive(false);
 
         memorySequence = new int[sequenceLength];
@@ -120,32 +106,26 @@ public class MemoryPlatforms : MonoBehaviour
         switch (memorySequence[seqIndex])
         {
             case 0:
-                Debug.Log("PurpleTreeStump");
                 PurplePlatform.SetActive(false);
                 PurplePlatformHighLighted.SetActive(true);
                 break;
             case 1:
-                Debug.Log("TanTreeStump");
                 TanPlatform.SetActive(false);
                 TanPlatformHighLighted.SetActive(true);
                 break;
             case 2:
-                Debug.Log("OrangeTreeStump");
                 OrangePlatform.SetActive(false);
                 OrangePlatformHighLighted.SetActive(true);
                 break;
             case 3:
-                Debug.Log("PinkTreeStump");
                 PinkPlatform.SetActive(false);
                 PinkPlatformHighLighted.SetActive(true);
                 break;
             case 4:
-                Debug.Log("RedTreeStump");
                 RedPlatform.SetActive(false);
                 RedPlatformHighLighted.SetActive(true);
                 break;
             default:
-                Debug.Log("Default Platform");
                 PurplePlatform.SetActive(false);
                 PurplePlatformHighLighted.SetActive(true);
                 break;
@@ -189,7 +169,6 @@ public class MemoryPlatforms : MonoBehaviour
 
     public void StageComplete()
     {
-        Debug.Log("Finished Stage 1!");
         SignParticle.SetActive(true);
         PurpleParticle.SetActive(true);
         TanParticle.SetActive(true);

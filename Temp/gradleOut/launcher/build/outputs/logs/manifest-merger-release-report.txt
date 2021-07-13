@@ -6,11 +6,15 @@ INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launche
 INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 MERGED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:3:1-100:12
 MERGED from [:OVRPlugin:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/8b5a88cfa4c83dd348e784710f99a57b/OVRPlugin/AndroidManifest.xml:2:1-9:12
+MERGED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:2:1-37:12
+MERGED from [:UnityAdsAndroidPlugin:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/98a95c8c23d1f10ac6a594ef24090612/UnityAdsAndroidPlugin/AndroidManifest.xml:2:1-11:12
+MERGED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:2:1-24:12
+MERGED from [:common:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/50aad1c4ad29e55e5d31da689d3ee133/common/AndroidManifest.xml:2:1-12:12
 INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 	package
-		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:70-108
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:70-110
 		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 	android:versionName
@@ -18,7 +22,7 @@ INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launche
 		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:109-155
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:111-157
 	android:versionCode
 		INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
@@ -26,7 +30,7 @@ INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launche
 	xmlns:android
 		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:11-69
 	android:installLocation
-		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:156-186
+		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:158-188
 supports-screens
 ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:3-163
 	android:largeScreens
@@ -43,6 +47,12 @@ application
 ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-116
 MERGED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:5-98:19
 MERGED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:5-98:19
+MERGED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:14:5-35:19
+MERGED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:14:5-35:19
+MERGED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:12:5-22:19
+MERGED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:12:5-22:19
+MERGED from [:common:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/50aad1c4ad29e55e5d31da689d3ee133/common/AndroidManifest.xml:9:5-10:19
+MERGED from [:common:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/50aad1c4ad29e55e5d31da689d3ee133/common/AndroidManifest.xml:9:5-10:19
 	android:extractNativeLibs
 		ADDED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
 	android:label
@@ -61,6 +71,14 @@ MERGED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gra
 MERGED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-12:41
 MERGED from [:OVRPlugin:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/8b5a88cfa4c83dd348e784710f99a57b/OVRPlugin/AndroidManifest.xml:7:5-47
 MERGED from [:OVRPlugin:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/8b5a88cfa4c83dd348e784710f99a57b/OVRPlugin/AndroidManifest.xml:7:5-47
+MERGED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityAdsAndroidPlugin:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/98a95c8c23d1f10ac6a594ef24090612/UnityAdsAndroidPlugin/AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityAdsAndroidPlugin:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/98a95c8c23d1f10ac6a594ef24090612/UnityAdsAndroidPlugin/AndroidManifest.xml:7:5-9:41
+MERGED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:6:5-8:41
+MERGED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:6:5-8:41
+MERGED from [:common:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/50aad1c4ad29e55e5d31da689d3ee133/common/AndroidManifest.xml:7:5-43
+MERGED from [:common:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/50aad1c4ad29e55e5d31da689d3ee133/common/AndroidManifest.xml:7:5-43
 INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 INJECTED from /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -82,6 +100,8 @@ ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/grad
 		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:16:26-76
 uses-permission#android.permission.INTERNET
 ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:5-67
+MERGED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:12:5-67
+MERGED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:12:5-67
 	android:name
 		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:22-64
 uses-permission#android.permission.RECORD_AUDIO
@@ -228,3 +248,67 @@ ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/grad
 		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:97:13-33
 	android:name
 		ADDED from [:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:96:13-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:11:22-76
+activity#com.unity3d.services.ads.adunit.AdUnitActivity
+ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:15:9-19:74
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:18:13-47
+	android:configChanges
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:17:13-170
+	android:theme
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:19:13-71
+	android:name
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:16:13-74
+activity#com.unity3d.services.ads.adunit.AdUnitTransparentActivity
+ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:20:9-24:86
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:23:13-47
+	android:configChanges
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:22:13-170
+	android:theme
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:24:13-83
+	android:name
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:21:13-85
+activity#com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity
+ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:25:9-29:86
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:28:13-48
+	android:configChanges
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:27:13-170
+	android:theme
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:29:13-83
+	android:name
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:26:13-93
+activity#com.unity3d.services.ads.adunit.AdUnitSoftwareActivity
+ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:30:9-34:74
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:33:13-48
+	android:configChanges
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:32:13-170
+	android:theme
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:34:13-71
+	android:name
+		ADDED from [:UnityAds:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/efa8797c8559b720bb4324c5c8163d27/UnityAds/AndroidManifest.xml:31:13-82
+uses-permission#com.android.vending.BILLING
+ADDED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:10:22-64
+meta-data#com.google.android.play.billingclient.version
+ADDED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:13:9-15:37
+	android:value
+		ADDED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:15:13-34
+	android:name
+		ADDED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:14:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:17:9-21:75
+	android:exported
+		ADDED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:20:13-37
+	android:configChanges
+		ADDED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:19:13-96
+	android:theme
+		ADDED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from [:billing-3.0.3:] /Users/cwillycs/.gradle/caches/transforms-2/files-2.1/336e97271e250663afb831a17b4a63c7/billing-3.0.3/AndroidManifest.xml:18:13-78

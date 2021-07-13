@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,44 +15,19 @@ public class GameManager : MonoBehaviour
 
     [Header("Manipulated Objects")]
     public TextMesh speechText;
-    public GameObject gestureText;
-    public GameObject slidingWallN;
-    public GameObject slidingWallW;
-    public GameObject slidingWallS;
-    public GameObject slidingWallE;
     public GameObject leftHandPic;
     public GameObject rightHandPic;
-    public GameObject rpsPic;
-    public GameObject[] gestureListObjs;
-    public GameObject[] aslGuides;
-    public Material[] guideMats;
 
-    /// <summary> Dialogue index that needs to be played next </summary>
-    private int currentDialogue = 0;
-
-    /// <summary> Distance the player's arm must be extended for primary hand setting </summary>
     private readonly float extendedValue = 0.44f;
-
-    /// <summary> Used in the demo to track how many gestures have been made in the first test </summary>
     private int gestureIndex = 0;
 
-    /// <summary>
-    /// Tracks if the demo is running. If the demo is not active, gesture coroutines stay on and turn themselves on after running
-    /// </summary>
-    private bool demoActive = true;
-
-    /// <summary>
-    /// Tracks if the narrator is speaking due to gesture detection and prevents overlap if so
-    /// </summary>
+    private int currentDialogue = 0;
     private bool speaking = false;
-
-    private string[] gestureOrder = new string[6] { "Thumbs Up", "Thumbs Down", "Paper", "Rock", "Scissors", "Okay" };
+    private string[] gestureOrder = new string[6] { "Thumbs Up", "Thumbs Down", "Paper", "Rock", "Scissors", "Thumbs Up" };
 
     // Sets up libraries for demo
     void Start()
     {
-        // Opens wall
-        StartCoroutine(ScaleOverTime(slidingWallN, 3, 0.5f));
         StartCoroutine(DelayDialogue(2, currentDialogue));
     }
 
@@ -74,29 +50,26 @@ public class GameManager : MonoBehaviour
                 break;
 
             case 3:
-                StopCoroutine(DetectPrimaryHand());
                 currentDialogue = 5;
                 speechText.text = dialogueText[currentDialogue];
                 soundManager.PlayDialogue(currentDialogue);
                 break;
 
             case 4:
-                StopCoroutine(DetectPrimaryHand());
                 currentDialogue = 5;
                 speechText.text = dialogueText[currentDialogue];
                 soundManager.PlayDialogue(currentDialogue);
                 break;
 
-            /*case 5:
+            case 5:
+                StopAllCoroutines();
                 currentDialogue = 6;
                 speechText.text = dialogueText[currentDialogue];
                 soundManager.PlayDialogue(currentDialogue);
-                break;*/
+                break;
 
             case 6:
                 StartCoroutine(GetNextGestureText(1));
-                //StartCoroutine(ScaleOverTime(slidingWallW, 3, 0.5f));
-                //StartCoroutine(DelayGestureLists(3));
 
                 StartCoroutine(DetectThumbsUp());
                 break;
@@ -106,7 +79,7 @@ public class GameManager : MonoBehaviour
                 StopCoroutine(DetectThumbsUp());
 
                 gestureIndex++;
-                StartCoroutine(GetNextGestureText(2));
+                StartCoroutine(GetNextGestureText(1));
                 StartCoroutine(DetectThumbsDown());
                 break;
 
@@ -115,7 +88,7 @@ public class GameManager : MonoBehaviour
                 StopCoroutine(DetectThumbsDown());
 
                 gestureIndex++;
-                StartCoroutine(GetNextGestureText(2));
+                StartCoroutine(GetNextGestureText(1));
                 StartCoroutine(DetectPaper());
                 break;
 
@@ -124,7 +97,7 @@ public class GameManager : MonoBehaviour
                 StopCoroutine(DetectPaper());
 
                 gestureIndex++;
-                StartCoroutine(GetNextGestureText(2));
+                StartCoroutine(GetNextGestureText(1));
                 StartCoroutine(DetectRock());
                 break;
 
@@ -133,7 +106,7 @@ public class GameManager : MonoBehaviour
                 StopCoroutine(DetectRock());
 
                 gestureIndex++;
-                StartCoroutine(GetNextGestureText(2));
+                StartCoroutine(GetNextGestureText(1));
                 StartCoroutine(DetectPeace());
                 break;
 
@@ -142,11 +115,11 @@ public class GameManager : MonoBehaviour
                 StopCoroutine(DetectPeace());
 
                 gestureIndex++;
-                StartCoroutine(GetNextGestureText(2));
-                StartCoroutine(DetectOkay());
+                StartCoroutine(GetNextGestureText(1));
+                StartCoroutine(DetectPinkyPromise());
                 break;
 
-            case 12: // Okay Gesture
+            case 12: // Waving Gesture
                 StopAllCoroutines();
 
                 currentDialogue = 13;
@@ -154,16 +127,9 @@ public class GameManager : MonoBehaviour
                 soundManager.PlayDialogue(currentDialogue);
                 break;
 
-            case 13: // Final, loops to selection
+            case 13: // Go back to main scene
                 StopAllCoroutines();
-                rpsPic.GetComponent<MeshRenderer>().enabled = false;
-                foreach (string g in handManager.gameObject.GetComponent<SocialGestures>().GetGestureList())
-                {
-                    handManager.gameObject.GetComponent<SocialGestures>().SetGestureActive(g, true);
-                }
-                currentDialogue = 0;
-                speechText.text = dialogueText[currentDialogue];
-                soundManager.PlayDialogue(currentDialogue);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
                 break;
 
             default:
@@ -179,24 +145,10 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void EndDemo()
     {
-        demoActive = false;
         speechText.text = "...";
 
-        // Cleans room
-        foreach (GameObject g in gestureListObjs)
-        {
-            g.GetComponent<MeshRenderer>().enabled = false;
-        }
         leftHandPic.GetComponent<MeshRenderer>().enabled = false;
         rightHandPic.GetComponent<MeshRenderer>().enabled = false;
-        rpsPic.GetComponent<MeshRenderer>().enabled = false;
-        gestureText.GetComponent<MeshRenderer>().enabled = true;
-        StartCoroutine(ScaleOverTime(slidingWallE, 2, 0f));
-        StartCoroutine(ScaleOverTime(slidingWallW, 2, 0f));
-        foreach (GameObject g in aslGuides)
-        {
-            g.GetComponent<MeshRenderer>().enabled = true;
-        }
 
         // Turns on all gestures
         handManager.gameObject.GetComponent<SocialGestures>().enabled = true;
@@ -210,13 +162,6 @@ public class GameManager : MonoBehaviour
         {
             handManager.gameObject.GetComponent<ASLphabetGestures>().SetGestureActive(g, true);
         }
-
-        StartCoroutine(DetectThumbsUp());
-        StartCoroutine(DetectThumbsDown());
-        StartCoroutine(DetectOkay());
-        StartCoroutine(DetectPeace());
-        StartCoroutine(DetectRock());
-        StartCoroutine(DetectPaper());
     }
 
 
@@ -236,31 +181,6 @@ public class GameManager : MonoBehaviour
         speechText.text = dialogueText[currentDialogue];
         soundManager.PlayDialogue(currentDialogue);
     }
-
-    /// <summary>
-    /// Scales wall over time seconds up to destY y
-    /// </summary>
-    /// <param name="wall"> Object to scale (preferably wall) </param>
-    /// <param name="time"> Number of seconds </param>
-    /// <param name="destY"> Desired Y value </param>
-    /// <returns></returns>
-    IEnumerator ScaleOverTime(GameObject wall, float time, float destY)
-    {
-        Vector3 originalScale = wall.transform.localScale;
-        Vector3 destinationScale = new Vector3(0.5f, destY, 1f);
-
-        float currentTime = 0.0f;
-
-        do {
-            wall.transform.localScale = Vector3.Lerp(originalScale, destinationScale, currentTime / time);
-            currentTime += Time.deltaTime;
-            yield return null;
-        } while (currentTime <= time);
-
-    }
-
-
-
 
     /// <summary>
     /// Grabs the hand that is extended and sets it as the PrimaryHand
@@ -298,6 +218,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(secs);
         speechText.text = gestureOrder[gestureIndex];
     }
+
 
     /// <summary>
     /// Detects the thumb's up gesture
@@ -368,12 +289,13 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Detects the okay gesture
+    /// Detects the waving gesture
     /// </summary>
     /// <returns></returns>
-    IEnumerator DetectOkay()
+    IEnumerator DetectPinkyPromise()
     {
-        yield return new WaitUntil(() => handManager.GetCurrentGesture() == "Okay" && !speaking);
+        //yield return new WaitUntil(() => handManager.GetCurrentGesture() == "Pinky Promise" && !speaking);
+        yield return new WaitUntil(() => handManager.GetCurrentGesture() == "Thumb's Up" && !speaking);
         soundManager.PlayDing();
         speaking = true;
         currentDialogue = 12;

@@ -10,6 +10,8 @@ public class StageManager : MonoBehaviour
     public GameObject Stage4;
     public GameObject Finale;
 
+    private bool isStage3Done;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +19,8 @@ public class StageManager : MonoBehaviour
         Stage2.SetActive(false);
         Stage3.SetActive(false);
         Stage4.SetActive(false);
+
+        isStage3Done = false;
     }
 
     // Update is called once per frame
@@ -46,5 +50,15 @@ public class StageManager : MonoBehaviour
                 Debug.Log("Default stage");
                 break;
         }
+    }
+
+    public bool getIsStage3Done()
+    {
+        return isStage3Done;
+    }
+
+    public void setIsStage3Done(bool isDone)
+    {
+        isStage3Done = isDone;
     }
 }

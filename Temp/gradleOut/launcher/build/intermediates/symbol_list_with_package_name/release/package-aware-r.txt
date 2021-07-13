@@ -1,4 +1,4 @@
-com.Unity.OculusNinjaWarrior
+com.DefaultCompany.ONWJuneCami
 id unitySurfaceView
 mipmap app_icon
 mipmap app_icon_round

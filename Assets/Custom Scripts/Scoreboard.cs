@@ -7,11 +7,12 @@ public class Scoreboard : MonoBehaviour
 {
     public GameObject Stages;
 
-    private GameObject CountText;
-    private GameObject TimerText;
-    private GameObject TimerImage;
-    private GameObject MenuText;
-    private GameObject ButtonImage;
+    [Header("Scoreboard Objects")]
+    public GameObject CountText;
+    public GameObject TimerText;
+    public GameObject TimerImage;
+    public GameObject MenuText;
+    public GameObject ButtonImage;
 
     private Text countdownText;
     private Text timerText;
@@ -23,15 +24,10 @@ public class Scoreboard : MonoBehaviour
 
     void Start()
     {
-        CountText = GameObject.Find("CountText");
         CountText.SetActive(true);
-        TimerText = GameObject.Find("TimerText");
         TimerText.SetActive(false);
-        TimerImage = GameObject.Find("TimerImage");
         TimerImage.SetActive(false);
-        MenuText = GameObject.Find("MenuText");
         MenuText.SetActive(false);
-        ButtonImage = GameObject.Find("ButtonImage");
         ButtonImage.SetActive(false);
 
         countdownText = CountText.GetComponent<Text>();
