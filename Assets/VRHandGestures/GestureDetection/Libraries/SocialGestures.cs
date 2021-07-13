@@ -18,7 +18,6 @@ public class SocialGestures : GestureLibrary
     public bool thumbsDown = true;
     public bool paper = true;
     public bool rock = true;
-    public bool scissors = true;
     public bool okay = true;
     public bool peace = true;
 
@@ -127,22 +126,6 @@ public class SocialGestures : GestureLibrary
             )
         {
             manager.SetCurrentGesture("Rock");
-            return;
-        }
-
-        // Scissors
-        if (scissors &&
-            handShape[0] >= (int)Finger.FingerShape.Curved &&
-            handShape[1] <= (int)Finger.FingerShape.Curved &&
-            handShape[2] <= (int)Finger.FingerShape.Curved &&
-            handShape[3] >= (int)Finger.FingerShape.Folded &&
-            handShape[4] >= (int)Finger.FingerShape.Folded &&
-            orient[1] == HandManager.Orientation.Palm_In &&
-            orient[4] == HandManager.Orientation.Thumb_Up &&
-            !manager.PrimaryFingerTouch(Finger.FingerType.Index, Finger.FingerType.Middle)
-            )
-        {
-            manager.SetCurrentGesture("Scissors");
             return;
         }
 

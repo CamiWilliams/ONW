@@ -3742,9 +3742,7 @@ GameObject:
   - component: {fileID: 1181215060}
   - component: {fileID: 1181215059}
   - component: {fileID: 1181215061}
-  - component: {fileID: 1181215062}
   - component: {fileID: 1181215063}
-  - component: {fileID: 1181215064}
   m_Layer: 0
   m_Name: HandManager
   m_TagString: Untagged
@@ -3798,23 +3796,8 @@ MonoBehaviour:
   thumbsDown: 1
   paper: 1
   rock: 1
-  scissors: 1
   okay: 1
   peace: 1
---- !u!114 &1181215062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181215058}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39463c28cd57d6245964df99c2d69c7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manager: {fileID: 1181215059}
-  iLoveYou: 1
 --- !u!114 &1181215063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3830,45 +3813,6 @@ MonoBehaviour:
   manager: {fileID: 1181215059}
   exampleGesture: 1
   exampleMultiPartGesture: 1
---- !u!114 &1181215064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181215058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: deb04b6b5ea6721498a66af47cbd200f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manager: {fileID: 1181215059}
-  a: 1
-  b: 1
-  c: 1
-  d: 1
-  e: 1
-  f: 1
-  g: 1
-  h: 1
-  i: 1
-  j: 1
-  k: 1
-  l: 1
-  m: 1
-  n: 1
-  o: 1
-  p: 1
-  q: 1
-  r: 1
-  s: 1
-  t: 1
-  u: 1
-  v: 1
-  w: 1
-  x: 1
-  y: 1
-  z: 1
 --- !u!1 &1186752908
 GameObject:
   m_ObjectHideFlags: 0
@@ -3900,11 +3844,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e66a363c0bc166242a6331637fde0833, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manager: {fileID: 1181215059}
-  boneId: 7
-  fakeHand: {fileID: 0}
-  fakePlayer: {fileID: 0}
-  text3D: {fileID: 0}
 --- !u!102 &1186752910
 TextMesh:
   serializedVersion: 3
@@ -4533,312 +4472,40 @@ MonoBehaviour:
   m_GameObject: {fileID: 1303804432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 430c8d2b48a2b924dbb41774bacaea58, type: 3}
+  m_Script: {fileID: 11500000, guid: da0d2dde5c0d043a1bf3f0a6f5b9045e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   handManager: {fileID: 1181215059}
   soundManager: {fileID: 1668345421}
   dialogueText:
-  - Hello there.
-  - 'Welcome to the
-
-    VR Hand Tracking
-
-    Gesture Detection Demo.'
-  - 'Let''s begin by choosing
-
-    your dominant hand.'
-  - 'Please stick your dominant
-
-    hand out in front of you.'
-  - 'I have registered your
-
-    left hand as your
-
-    dominant hand.'
-  - 'I have registered your
-
-    right hand as your
-
-    dominant hand.'
-  - 'Please give a thumb''s up
-
-    with this hand if this
-
-    is correct,'
-  - 'or give a thumb''s down
-
-    if your other hand is your
-
-    dominant hand.'
-  - 'Good, you''re ready. You can
-
-    play the full demo, jump to
-
-    the ASL
-    part of the demo,
-
-    or mess around in free play.'
-  - 'Give a thumb''s up for the full
-
-    demo, an okay sign for the
-
-    ASL portion,
-    or a thumb''s
-
-    down for free play.'
-  - 'Wonderful.
-
-    Let''s move on.'
-  - "Communication is one\nof the most important\naspects\r of life."
-  - 'And today, we will
-
-    demonstrate how our
-
-    hands play a role in that.'
-  - 'The wall on your left will
-
-    display a list of commonly
-
-    used gestures.'
-  - "Try making them with your \r\ndominant hand to\r\ncommunicate with me.\r"
-  - 'Hello there,
-
-    nice to see you!'
-  - I approve as well!
-  - 'You''re right, that''s
-
-    not good.'
-  - Nice job!
-  - I, too, wish for peace.
-  - 'Do you solemnly swear
-
-    that you''re up to no good?'
-  - Go State!
-  - That is very rude!
-  - 'Excellent!
-
-    Now let''s try some less
-
-    common hand gestures.'
-  - 'The wall on your right will
-
-    depict a gesture. Recreate
-
-    that gesture.'
-  - Hang ten, brah!
-  - 'I''m more of a dubstep
-
-    fan, myself.'
-  - Thwip Thwip!
-  - Beam me up, Scotty!
-  - Be prepared.
-  - Pew pew!
-  - 'Great job!
-
-    Next, let''s try a game.'
-  - 'In front of you, you can
-
-    find the rules for Rock,
-
-    Paper, Scissors.'
-  - 'I will count down from
-
-    three. As I do that, form
-
-    one of those gestures.'
-  - 'We will play three games.
-
-    Good luck!'
-  - 3
-  - 2
-  - 1
-  - Paper!
-  - Let's try again.
-  - One more time!
-  - 'I cannot be threatening,
-
-    so I am unable to use either
-
-    rock or scissors
-    against you.'
-  - How enjoyable!
-  - 'Our next demonstration
-
-    involves the ASL alphabet.'
-  - 'Give a thumb''s up if you
-
-    wish to proceed with the
-
-    demo,'
-  - 'or give a thumb''s down if
-
-    you want to enter free
-
-    play mode.'
-  - Paper! You win!
-  - Paper! You lose!
-  - 'You will now learn how to
-
-    sign letters in American
-
-    Sign Language.'
-  - 'Due to the limitations with
-
-    this technology, not all signs
-
-    will be
-    easily recognized.'
-  - 'You should position your
-
-    dominant hand right in
-
-    front of your shoulder
-    for
-
-    the best results.'
-  - 'We will begin with the first
-
-    six letters, A through F.'
-  - 'I have provided a visual.
-
-    Sign each letter with your
-
-    dominant hand,
-    preferably
-
-    pointing at my wall.'
-  - A
-  - B
-  - C
-  - D
-  - E
-  - F
-  - 'Nice!
-
-    Now try them again without
-
-    the guide. If you get stuck,
-
-    snap
-    your fingers.'
-  - 'You''re off to a great start.
-
-    You will now sign the next
-
-    six letters,
-    G through L.'
-  - G
-  - H
-  - I
-  - J
-  - K
-  - L
-  - 'You''re reaching the difficult
-
-    signs now. Some of them
-
-    cannot be
-    tracked accurately
-
-    with this technology.'
-  - 'For this reason, M and N
-
-    will be counted as one sign.
-
-    Also, R will
-    not require
-
-    crossing your fingers.'
-  - 'Even though you may get a
-
-    false positive, try to
-
-    emulate the signs
-    shown as
-
-    best as you can.'
-  - M or N
-  - 'Perfectly balanced, as all
-
-    things should be.'
-  - O
-  - P
-  - Q
-  - R
-  - S
-  - 'Good work. This will be our
-
-    final set of signs. It is worth
-
-    noting
-    that Z does not require
-
-    movement in this demo.'
-  - PLACEHOLDER?
-  - T
-  - U
-  - V
-  - W
-  - X
-  - Y
-  - Z
-  - 'And now you know your
-
-    ABC''s in American
-
-    Sign Language!'
-  - "Thank you for playing this\ndemo, and I hope you enjoy \r\nusing this system
-    for VR\r\ngesture detection."
-  - 'You will now get the chance
-
-    to replay the demo from the
-
-    beginning,
-    from the ASL portion,
-
-    or to use free play.'
+  - "Welcome to the Hand Tracking \nstage of Oculus Ninja Warrior."
+  - "Once you complete this challenge, \nyou will be teleported back to the main
+    scene. \nLet's get started."
+  - Put your primary hand out in front of you.
+  - "Got it. \nYou will be using your left hand."
+  - "Got it. \nYou will be using your right hand."
+  - "There will be a series of gestures \nappearing in front of you."
+  - "Complete 5 gestures in a row \nand you will have finished the stage. \nReady?
+    Let's go."
+  - Good thumbs up!
+  - Nice thumbs down!
+  - Paper covers rock!
+  - Rock breaks scissors!
+  - "Scissors or a peace sign, \neither way good job!"
+  - Okay okay! Very nice!
+  - "Congratulations,\nyou have finished the phase, \nback to the races!"
   speechText: {fileID: 339461091}
   gestureText: {fileID: 1186752908}
-  slidingWallN: {fileID: 1824963289}
-  slidingWallW: {fileID: 2002788493}
-  slidingWallS: {fileID: 1545561493}
-  slidingWallE: {fileID: 360373343}
+  slidingWallN: {fileID: 271082545}
+  slidingWallW: {fileID: 342126705}
+  slidingWallS: {fileID: 1645115699}
+  slidingWallE: {fileID: 1353886236}
   leftHandPic: {fileID: 825051434}
   rightHandPic: {fileID: 1039435945}
   rpsPic: {fileID: 0}
-  gestureListObjs:
-  - {fileID: 1154329860}
-  - {fileID: 1462467040}
-  - {fileID: 1409496085}
-  - {fileID: 1808184840}
-  - {fileID: 298124080}
-  - {fileID: 667035214}
-  - {fileID: 1649461751}
-  - {fileID: 2015538084}
-  aslGuides:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  guideMats:
-  - {fileID: 2100000, guid: 14306b937b383aa4299c61c19d77af42, type: 2}
-  - {fileID: 2100000, guid: 05ddc208409c8884280dee19e7455493, type: 2}
-  - {fileID: 2100000, guid: 538be99df1c4ec14cabaa6bd05384519, type: 2}
-  - {fileID: 2100000, guid: 9319528d32aa064428abac511429f83a, type: 2}
-  - {fileID: 2100000, guid: 2a0cbc51faa595a4bbd693825749533b, type: 2}
-  - {fileID: 2100000, guid: e0b507001acdf2f429e03f7fbdbe144a, type: 2}
-  - {fileID: 2100000, guid: cdad2e788af6c4047a8147f98a632e78, type: 2}
-  - {fileID: 2100000, guid: 1700f17b41fe1304f933630bd4e7fb8e, type: 2}
-  - {fileID: 2100000, guid: bd50812e9b611dd4dacd1f85271606b3, type: 2}
-  - {fileID: 2100000, guid: ca86eed302602fa44806c768efc7a9d1, type: 2}
-  - {fileID: 2100000, guid: a454449e86ade9f45819bb2326be4276, type: 2}
-  currentDialogue: 0
-  numGestures: 0
-  demoActive: 1
-  speaking: 0
-  roundsRPSComplete: 0
-  repeatASL: 0
+  gestureListObjs: []
+  aslGuides: []
+  guideMats: []
 --- !u!4 &1303804434
 Transform:
   m_ObjectHideFlags: 0
@@ -6354,103 +6021,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1668345419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf7c940a5427bd4aa530b0c0e26545f, type: 3}
+  m_Script: {fileID: 11500000, guid: c2b43db6ef7084f56aed64b306e98a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 1303804433}
   dingSource: {fileID: 1668345420}
-  dialogueSource: {fileID: 1668345423}
+  dialogueSource: {fileID: 1668345420}
   dialogue:
-  - {fileID: 8300000, guid: 7c1d0a793b911fa45a78866635407726, type: 3}
-  - {fileID: 8300000, guid: b285dfa28b82bc644b0fe8e0dce4def3, type: 3}
-  - {fileID: 8300000, guid: 7b7caf070c53cbd43a5e7b9a15e357ec, type: 3}
-  - {fileID: 8300000, guid: ba8d84f3308f1344d9da25601f0762c0, type: 3}
-  - {fileID: 8300000, guid: 7bc33675486eb9647855245c192d53a2, type: 3}
-  - {fileID: 8300000, guid: ab323afd69e1f0e4a9e654a006f64814, type: 3}
-  - {fileID: 8300000, guid: 96eae2495ac5f1a41803f88874b49ece, type: 3}
-  - {fileID: 8300000, guid: 5b10e135dc545b14d8eaee84b4564500, type: 3}
-  - {fileID: 8300000, guid: 309cc85b93b31704eba89db91b7b9b0d, type: 3}
-  - {fileID: 8300000, guid: 4b75c87585fa4974b9a9f458fbc939d3, type: 3}
-  - {fileID: 8300000, guid: 8377658d5a0f9824cac25bb64015afc9, type: 3}
-  - {fileID: 8300000, guid: 94578ae1ccb75384ebbde4529824ff4f, type: 3}
-  - {fileID: 8300000, guid: 4c88b6e5638855e41b064efb1bc3f98f, type: 3}
-  - {fileID: 8300000, guid: 12e8608f3ea443a41bd694fa29c0ef40, type: 3}
-  - {fileID: 8300000, guid: 8c9aad91e3abb3b4bb43254825cbd1f4, type: 3}
-  - {fileID: 8300000, guid: b7cce016d99760b48a819b0df248b5ba, type: 3}
-  - {fileID: 8300000, guid: 3f6a917197e552c4ab3b9a9808dd9d4b, type: 3}
-  - {fileID: 8300000, guid: fb1550cd0badd8140ae078eaf1ff63c3, type: 3}
-  - {fileID: 8300000, guid: 0ed24ef531e45d141b960e783152ba4b, type: 3}
-  - {fileID: 8300000, guid: 4d3a28dc66016fe488c63785e88e1d74, type: 3}
-  - {fileID: 8300000, guid: aa53edfecb448854fa2a76db7964be1b, type: 3}
-  - {fileID: 8300000, guid: 286020a80dc3c6e4483f3022d8cce2bc, type: 3}
-  - {fileID: 8300000, guid: fe6815890abfa054fb12803d5fe9343d, type: 3}
-  - {fileID: 8300000, guid: b332bd0595d855845a10fe080f932608, type: 3}
-  - {fileID: 8300000, guid: 25408d827479ae04c87c7d5b2b9eded7, type: 3}
-  - {fileID: 8300000, guid: a2d287737853ae44a92290e29571ed9f, type: 3}
-  - {fileID: 8300000, guid: ec4aeaa4511c04a419d5324fc2b0fc94, type: 3}
-  - {fileID: 8300000, guid: 8fd60c5d1361a4548bc69b2620fc00f4, type: 3}
-  - {fileID: 8300000, guid: cb8a7d1af6a79274b8b548a4b0731108, type: 3}
-  - {fileID: 8300000, guid: e213ea6564a10ec4f86cb1003657b60d, type: 3}
-  - {fileID: 8300000, guid: 13b86b73539f0ca4cb2aa2ee5ce8ff07, type: 3}
-  - {fileID: 8300000, guid: 734dad7481906864e9fc5986251a051d, type: 3}
-  - {fileID: 8300000, guid: 0673e8e710da30a4889a191c20895bd9, type: 3}
-  - {fileID: 8300000, guid: f9fd6748e9ef03d48937ba6759879c2e, type: 3}
-  - {fileID: 8300000, guid: a17e7393aef44a1499b68b3a1c13284f, type: 3}
-  - {fileID: 8300000, guid: f176bc2a46da58348a3bde51a74439aa, type: 3}
-  - {fileID: 8300000, guid: 87e1bc65f141a6f4ab4b042ff697a3eb, type: 3}
-  - {fileID: 8300000, guid: b8e4896b7f4819f45861e677598c1af5, type: 3}
-  - {fileID: 8300000, guid: d277d1410a5190b40910eeddf13330a2, type: 3}
-  - {fileID: 8300000, guid: 7c40bbb809c8cdf49abcd5663ca96d7b, type: 3}
-  - {fileID: 8300000, guid: 1f8306caf3ebea3418b064a1eb29a56f, type: 3}
-  - {fileID: 8300000, guid: c2a07d444c333d04abb4a4e92f1d0308, type: 3}
-  - {fileID: 8300000, guid: 857fd16d6b453b044a515b6930e1dc0d, type: 3}
-  - {fileID: 8300000, guid: 268875cf784a96044b4a3175cfe73304, type: 3}
-  - {fileID: 8300000, guid: 221814967c333c04b9c2718cfaba0514, type: 3}
-  - {fileID: 8300000, guid: 538ce01f73a680542a088ca594cb969b, type: 3}
-  - {fileID: 8300000, guid: 22af89c01ba77ed4da7bc34ee7d9c896, type: 3}
-  - {fileID: 8300000, guid: af49b1cb5e02a4e4ba41260f21332977, type: 3}
-  - {fileID: 8300000, guid: b88594f3cada7f04b9412467a70f0ae6, type: 3}
-  - {fileID: 8300000, guid: 77963595140fa1a49b67d25570a4ee8b, type: 3}
-  - {fileID: 8300000, guid: 86f0d95fe1d69a845838fefd7061d4f7, type: 3}
-  - {fileID: 8300000, guid: 30e5d13643fd9c14ab268246a9ee5474, type: 3}
-  - {fileID: 8300000, guid: e28c7883dbba37747ba573e9526e7318, type: 3}
-  - {fileID: 8300000, guid: 9fe04bdf61f7cac4d81ed12c2d1d6e2e, type: 3}
-  - {fileID: 8300000, guid: b9df30280fd16204ebcc68b3ed2c9285, type: 3}
-  - {fileID: 8300000, guid: 031840eec8effca4f9d7d621690e8ee6, type: 3}
-  - {fileID: 8300000, guid: f0b6cb8a4745caf48bcb454cc6d382f2, type: 3}
-  - {fileID: 8300000, guid: ca09e44dc785f2e4288de6a4cde8c1b7, type: 3}
-  - {fileID: 8300000, guid: 076b55a166afe08498e2c2661f821bf0, type: 3}
-  - {fileID: 8300000, guid: 8b2ca83f216c9d747973134f5ccd1bfc, type: 3}
-  - {fileID: 8300000, guid: 4784d6312ae831d4bb2dfbb16a0f5525, type: 3}
-  - {fileID: 8300000, guid: 17662eeb36b34a0429848ac66563cdeb, type: 3}
-  - {fileID: 8300000, guid: 6c2253b7659b2c348b7efb86aef7c9b2, type: 3}
-  - {fileID: 8300000, guid: bf2209e8b3dc96342a96ef22b8b7e222, type: 3}
-  - {fileID: 8300000, guid: 04575a82b03fab0439747a1441672bb9, type: 3}
-  - {fileID: 8300000, guid: a105a2e094fb8154ca8ff77e9bd40eb5, type: 3}
-  - {fileID: 8300000, guid: 01c5e80135ffe86428de5116d847ca9f, type: 3}
-  - {fileID: 8300000, guid: 0a107d9e9a90af840bf509e891a9aa2d, type: 3}
-  - {fileID: 8300000, guid: 5ea53081af06c164c813d328d854d162, type: 3}
-  - {fileID: 8300000, guid: 5d01f4517fdfb4f42b00278751557f4f, type: 3}
-  - {fileID: 8300000, guid: 033d0898d2aa27a42a67385c1269e618, type: 3}
-  - {fileID: 8300000, guid: 5eb44bafed8beb74c86b8c4dffd22df3, type: 3}
-  - {fileID: 8300000, guid: fbeee4e228399d74a9f6bebca1d742d4, type: 3}
-  - {fileID: 8300000, guid: 081145db146fa0b4eab42259e16cf03a, type: 3}
-  - {fileID: 8300000, guid: 60e7c251f52a7f048b2bd7bb40faf816, type: 3}
-  - {fileID: 8300000, guid: 8f1f19703c71604408798a9dd8e74694, type: 3}
-  - {fileID: 8300000, guid: dad6b3c23d2c0b3418a0bfdbacc1b4b4, type: 3}
-  - {fileID: 8300000, guid: 61063e9e5ff95f2408265f9659e6d7df, type: 3}
-  - {fileID: 8300000, guid: 0aa0150baf79e47488cb7734c57ba9e6, type: 3}
-  - {fileID: 8300000, guid: 2c55cfd94f518594e9892522d492292e, type: 3}
-  - {fileID: 8300000, guid: 1b213fac550f7674fa40ed0935e7c5ce, type: 3}
-  - {fileID: 8300000, guid: 710c58e1aa74ce041843dcd8bca32fa4, type: 3}
-  - {fileID: 8300000, guid: cc875080a121d7d4b9f1f12657f0d674, type: 3}
-  - {fileID: 8300000, guid: 5d5de08e30290644e8cdfa566f450e7f, type: 3}
-  - {fileID: 8300000, guid: 226e324c40111bf49b644f76ab021274, type: 3}
-  - {fileID: 8300000, guid: 59d409add06b20d418952d5d2b19cdd7, type: 3}
-  - {fileID: 8300000, guid: aa2ae64a17deb6c4993214eeb047444b, type: 3}
-  - {fileID: 8300000, guid: 693fbe037e3432e4f8ada60c893cd7db, type: 3}
-  - {fileID: 8300000, guid: fb71f5138e0b84347a3eb5f92747ee0d, type: 3}
-  ding: {fileID: 8300000, guid: d29458b8958477c4aa35143384f7fc96, type: 3}
+  - {fileID: 8300000, guid: 368fb91ef05804b988da74d7b03cee10, type: 3}
+  - {fileID: 8300000, guid: f813227145dfb4738965cfaaa4dd8560, type: 3}
+  - {fileID: 8300000, guid: 731f29f31920148bdab2dab0dc546fb4, type: 3}
+  - {fileID: 8300000, guid: be32e2c48a4ae4dcc8e9dc937d3a6db2, type: 3}
+  - {fileID: 8300000, guid: 9f7ddb59dbcd14030847b7f3a00bcfbe, type: 3}
+  - {fileID: 8300000, guid: 8aa46d54ca5114eb4ba58b5312fcec6c, type: 3}
+  - {fileID: 8300000, guid: 23f7a9f20adb44dca8dcddcaaad2ccc5, type: 3}
+  - {fileID: 8300000, guid: f2ba2c0775784424aa180b6dc7d9f008, type: 3}
+  - {fileID: 8300000, guid: aa24f9a8db3ab40198658c8cb5a6c723, type: 3}
+  - {fileID: 8300000, guid: 95d18a8fec9df4acf9f244c73c916d68, type: 3}
+  - {fileID: 8300000, guid: 539c4cc68d50d4cf49ed1c5550cb88b4, type: 3}
+  - {fileID: 8300000, guid: f8042ad1763614d0cacb12fdedd2f601, type: 3}
+  - {fileID: 8300000, guid: b177cd9ffd83f45f8a74ebdd832b9f3a, type: 3}
+  - {fileID: 8300000, guid: ef5d3435241534662a9066aa54b8be9c, type: 3}
+  ding: {fileID: 8300000, guid: a05d082cd207b4b12a47c089be8b7a62, type: 3}
 --- !u!4 &1668345422
 Transform:
   m_ObjectHideFlags: 0
@@ -6571,6 +6163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1795229448}
   - component: {fileID: 1795229449}
+  - component: {fileID: 1795229450}
   m_Layer: 0
   m_Name: RightEyeAnchor
   m_TagString: Untagged
@@ -6635,6 +6228,38 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1795229450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795229447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &1808184840
 GameObject:
   m_ObjectHideFlags: 0

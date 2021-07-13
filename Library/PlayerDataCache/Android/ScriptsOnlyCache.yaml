@@ -1,12 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ASLGestures
-    - ASLphabetGestures
     - ExampleGestures
+    - GameManager
     - HandManager
     - ONSPSettings
     - SocialGestures
+    - SoundManager
     Oculus.Platform.dll:
     - Oculus.Platform.PlatformSettings
     Oculus.VR.Editor.dll:
@@ -63,6 +63,7 @@ ScriptsOnlyBuild:
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.ForwardRendererData
     - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
@@ -151,6 +152,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -166,139 +169,137 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1856}
-    - Class: 114
-      Script: {instanceID: 1858}
-    - Class: 114
       Script: {instanceID: 1860}
     - Class: 114
       Script: {instanceID: 1862}
     - Class: 114
-      Script: {instanceID: 1870}
+      Script: {instanceID: 1864}
     - Class: 114
-      Script: {instanceID: 2036}
+      Script: {instanceID: 1866}
     - Class: 114
-      Script: {instanceID: 2416}
+      Script: {instanceID: 1874}
     - Class: 114
-      Script: {instanceID: 2468}
+      Script: {instanceID: 2040}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2420}
     - Class: 114
-      Script: {instanceID: 2538}
+      Script: {instanceID: 2472}
     - Class: 114
-      Script: {instanceID: 2732}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2746}
+      Script: {instanceID: 2540}
     - Class: 114
-      Script: {instanceID: 2844}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 3100}
+      Script: {instanceID: 2744}
     - Class: 114
-      Script: {instanceID: 3198}
+      Script: {instanceID: 2748}
     - Class: 114
-      Script: {instanceID: 3658}
+      Script: {instanceID: 2848}
     - Class: 114
-      Script: {instanceID: 3754}
+      Script: {instanceID: 3068}
     - Class: 114
-      Script: {instanceID: 3822}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3850}
+      Script: {instanceID: 3206}
     - Class: 114
-      Script: {instanceID: 3924}
+      Script: {instanceID: 3668}
     - Class: 114
-      Script: {instanceID: 3978}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 4068}
+      Script: {instanceID: 3764}
     - Class: 114
-      Script: {instanceID: 4214}
+      Script: {instanceID: 3832}
     - Class: 114
-      Script: {instanceID: 4604}
+      Script: {instanceID: 3860}
     - Class: 114
-      Script: {instanceID: 4754}
+      Script: {instanceID: 3934}
     - Class: 114
-      Script: {instanceID: 4814}
+      Script: {instanceID: 3936}
     - Class: 114
-      Script: {instanceID: 4844}
+      Script: {instanceID: 3990}
     - Class: 114
-      Script: {instanceID: 4904}
+      Script: {instanceID: 4080}
     - Class: 114
-      Script: {instanceID: 5110}
+      Script: {instanceID: 4226}
     - Class: 114
-      Script: {instanceID: 5228}
+      Script: {instanceID: 4618}
     - Class: 114
-      Script: {instanceID: 5488}
+      Script: {instanceID: 4766}
     - Class: 114
-      Script: {instanceID: 6070}
+      Script: {instanceID: 4828}
     - Class: 114
-      Script: {instanceID: 6090}
+      Script: {instanceID: 4858}
     - Class: 114
-      Script: {instanceID: 6156}
+      Script: {instanceID: 4918}
     - Class: 114
-      Script: {instanceID: 6170}
+      Script: {instanceID: 5116}
     - Class: 114
-      Script: {instanceID: 6400}
+      Script: {instanceID: 5126}
     - Class: 114
-      Script: {instanceID: 6402}
+      Script: {instanceID: 5244}
     - Class: 114
-      Script: {instanceID: 6434}
+      Script: {instanceID: 5504}
     - Class: 114
-      Script: {instanceID: 6732}
+      Script: {instanceID: 6086}
     - Class: 114
-      Script: {instanceID: 6854}
+      Script: {instanceID: 6106}
     - Class: 114
-      Script: {instanceID: 7006}
+      Script: {instanceID: 6172}
     - Class: 114
-      Script: {instanceID: 7098}
+      Script: {instanceID: 6186}
     - Class: 114
-      Script: {instanceID: 7108}
+      Script: {instanceID: 6416}
     - Class: 114
-      Script: {instanceID: 7232}
+      Script: {instanceID: 6418}
     - Class: 114
-      Script: {instanceID: 7280}
+      Script: {instanceID: 6450}
     - Class: 114
-      Script: {instanceID: 7328}
+      Script: {instanceID: 6748}
     - Class: 114
-      Script: {instanceID: 7418}
+      Script: {instanceID: 6870}
     - Class: 114
-      Script: {instanceID: 7428}
+      Script: {instanceID: 7022}
     - Class: 114
-      Script: {instanceID: 7542}
+      Script: {instanceID: 7114}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 7124}
     - Class: 114
-      Script: {instanceID: 7846}
+      Script: {instanceID: 7156}
     - Class: 114
-      Script: {instanceID: 7910}
+      Script: {instanceID: 7250}
     - Class: 114
-      Script: {instanceID: 8642}
+      Script: {instanceID: 7298}
     - Class: 114
-      Script: {instanceID: 8648}
+      Script: {instanceID: 7346}
     - Class: 114
-      Script: {instanceID: 8722}
+      Script: {instanceID: 7436}
     - Class: 114
-      Script: {instanceID: 8836}
+      Script: {instanceID: 7446}
     - Class: 114
-      Script: {instanceID: 9004}
+      Script: {instanceID: 7562}
     - Class: 114
-      Script: {instanceID: 9316}
+      Script: {instanceID: 7726}
     - Class: 114
-      Script: {instanceID: 9388}
+      Script: {instanceID: 7868}
     - Class: 114
-      Script: {instanceID: 290954}
+      Script: {instanceID: 7932}
     - Class: 114
-      Script: {instanceID: 290956}
+      Script: {instanceID: 8666}
     - Class: 114
-      Script: {instanceID: 290960}
+      Script: {instanceID: 8672}
     - Class: 114
-      Script: {instanceID: 290962}
+      Script: {instanceID: 8746}
     - Class: 114
-      Script: {instanceID: 290964}
+      Script: {instanceID: 8860}
     - Class: 114
-      Script: {instanceID: 290966}
+      Script: {instanceID: 9028}
     - Class: 114
-      Script: {instanceID: 290968}
+      Script: {instanceID: 9340}
     - Class: 114
-      Script: {instanceID: 290970}
+      Script: {instanceID: 9412}
+    - Class: 114
+      Script: {instanceID: 24586}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -708,6 +709,12 @@ ScriptsOnlyBuild:
     className: HandPose
   - hash:
       serializedVersion: 2
+      Hash: 458e51c834681c46ad9a83eb4f5c2fed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundManager
+  - hash:
+      serializedVersion: 2
       Hash: 98e5fd32952d6cca03aab18bfaee5139
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -786,10 +793,22 @@ ScriptsOnlyBuild:
     className: TeleportAimVisualLaser
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GestureLibrary
+  - hash:
+      serializedVersion: 2
       Hash: b5be90544603fd5604bfcc31deb77313
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ONSPPropagationGeometry
+  - hash:
+      serializedVersion: 2
+      Hash: d6872f91ac35c745978c543e80154622
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: 043c7e57403febdc5cb7607252a9451b
@@ -916,6 +935,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HandedInputSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 16484e93db811f6de9bc8971a5b2189f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TargetArea
   - hash:
       serializedVersion: 2
       Hash: a59e183d3f86325b6f381a8fc91f951c
@@ -1128,6 +1153,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerContainer
   - hash:
       serializedVersion: 2
+      Hash: a404d59094236407c99b1f10af2cdfee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleGestures
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -1258,6 +1289,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerToggleHistory
+  - hash:
+      serializedVersion: 2
+      Hash: 92b57a0ea2f4f6c3b5228ed9850901bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ASLphabetGestures
   - hash:
       serializedVersion: 2
       Hash: e860a95284af40074bb7dc5ed54952f8
@@ -1398,7 +1435,7 @@ ScriptsOnlyBuild:
     className: RemoveObjectsWithTag
   - hash:
       serializedVersion: 2
-      Hash: d8ea5e33d2a083136881dfd39842bcf3
+      Hash: 6d39c48b69b486476ba524949d845693
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LocomotionController
@@ -1690,6 +1727,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: Renderer2DData
+  - hash:
+      serializedVersion: 2
+      Hash: ea7dadd5b0331149de98ab489a413d75
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SocialGestures
   - hash:
       serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
@@ -2460,6 +2503,12 @@ ScriptsOnlyBuild:
     className: CharacterControllerDriver
   - hash:
       serializedVersion: 2
+      Hash: 53eb355a581c1d1878fcc6c4e634af59
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandManager
+  - hash:
+      serializedVersion: 2
       Hash: 36112b0a16753cab0931521e4de67ef6
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
@@ -2590,6 +2639,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
     className: PlayerArea
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SimonSaysManager
   - hash:
       serializedVersion: 2
       Hash: 9337d9b49ef69a8f6b3c9e840a9d2fe6
@@ -2752,6 +2807,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 60f38e785b31e9eb7a55210e855e7b51
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ASLGestures
   - hash:
       serializedVersion: 2
       Hash: 36025d42bf23fda83a55bf1429201821
@@ -3324,6 +3385,12 @@ ScriptsOnlyBuild:
     className: LaunchProjectile
   - hash:
       serializedVersion: 2
+      Hash: e48724427c7c136ab62dfc2bf42095f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandGUI
+  - hash:
+      serializedVersion: 2
       Hash: ea41fa959037983f32ebd7c70de46554
     assemblyName: Unity.XR.OpenXR.Features.OculusQuestSupport.dll
     namespaceName: UnityEngine.XR.OpenXR.Features.OculusQuestSupport
@@ -3388,73 +3455,7 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
-  - hash:
-      serializedVersion: 2
-      Hash: 16484e93db811f6de9bc8971a5b2189f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TargetArea
-  - hash:
-      serializedVersion: 2
-      Hash: d71c5787fb53845a4cb7e5301db485ec
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SocialGestures
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GestureLibrary
-  - hash:
-      serializedVersion: 2
-      Hash: 60f38e785b31e9eb7a55210e855e7b51
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ASLGestures
-  - hash:
-      serializedVersion: 2
-      Hash: a404d59094236407c99b1f10af2cdfee
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ExampleGestures
-  - hash:
-      serializedVersion: 2
-      Hash: 53eb355a581c1d1878fcc6c4e634af59
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HandManager
-  - hash:
-      serializedVersion: 2
-      Hash: 92b57a0ea2f4f6c3b5228ed9850901bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ASLphabetGestures
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SimonSaysManager
-  - hash:
-      serializedVersion: 2
-      Hash: d6872f91ac35c745978c543e80154622
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
-      Hash: e48724427c7c136ab62dfc2bf42095f5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HandGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 458e51c834681c46ad9a83eb4f5c2fed
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SoundManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/HandSimonSays.unity
-  playerPath: /Users/cwillycs/Documents/ONW - June - Cami/7.9 SimonSays.apk
+  playerPath: /Users/cwillycs/Documents/ONW - June - Cami/7.12 SimonSays.apk
