@@ -44,11 +44,9 @@ Once the player has completed each of the 4 stages, they will hit the final butt
 * Change from 2 directional lights to 1
 * Timer running out/game over logic and UI
 * Stage 3: Simon Says
-	* Logic to enter new scene and return to main scene
+	* Logic to return to main scene
 	* Animation to new scene
 * Main Menu
-	* Start game 
-	* Quit game
 	* Game instructions for each scene
 * Accessibility
 	* Ensure memory platforms are accessible
