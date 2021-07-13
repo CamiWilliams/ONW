@@ -27,7 +27,6 @@ public class TargetArea : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name);
         switch (StageNum)
         {
             case 0:
@@ -44,6 +43,12 @@ public class TargetArea : MonoBehaviour
                 break;
             case 4:
                 Finale.GetComponent<FinaleSequence>().PlayFinale();
+                break;
+            case 5: //Play game
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                break;
+            case 6: //Instructions
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 break;
             default:
                 break;
