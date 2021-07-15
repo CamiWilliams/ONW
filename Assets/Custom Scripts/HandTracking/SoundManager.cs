@@ -2,24 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * This class plays Audio for the HandTracking scene.
+ * Edited from https://github.com/jojods1125/VRGestureDetection
+ * 
+ * From the scene it takes in the GameManager game object, the Ding sound,
+ * audio clips to match the text in the GameManager, and the SoundManager game object.
+ */
 public class SoundManager : MonoBehaviour
 {
-    /// <summary> GameManager object </summary>
-    public GameManager manager;
+    /** HTGameManager object */
+    public HTGameManager manager;
 
-    /// <summary> Audio source that plays the ding fx </summary>
+    /** Audio source that plays the ding fx */
     public AudioSource dingSource;
 
-    /// <summary> Audio source that plays the dialogue </summary>
+    /** Audio source that plays the dialogue */
     public AudioSource dialogueSource;
 
-    /// <summary> Other scripts can call functions in SoundManager </summary>
+    /** Other scripts can call functions in SoundManager */
     public static SoundManager instance = null;
 
-    /// <summary> List of dialogue audio </summary>
+    /** List of dialogue audio */
     public List<AudioClip> dialogue;
 
-    /// <summary> Ding fx </summary>
+    /**  Ding fx */
     public AudioClip ding;
 
     void Awake()
@@ -37,11 +44,10 @@ public class SoundManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    /// <summary>
-    /// Waits until audio is finished and then calls DialogueFinished in GameManager
-    /// </summary>
-    /// <param name="i"> Number of seconds </param>
-    /// <returns></returns>
+    /** 
+     * Waits until audio is finished and then calls DialogueFinished in GameManager
+     * @param Number of seconds
+     */
     private IEnumerator WaitAudio(int i)
     {
         yield return new WaitForSeconds(dialogueSource.clip.length);
@@ -49,10 +55,10 @@ public class SoundManager : MonoBehaviour
         manager.DialogueFinished(i);
     }
 
-    /// <summary>
-    /// Plays the dialogue associated with dialogueID
-    /// </summary>
-    /// <param name="dialogueID"> Index of the dialogue being played </param>
+    /**
+     * Plays the dialogue associated with dialogueID
+     * @param dialogueID Index of the dialogue being played </param>
+     */
     public void PlayDialogue(int dialogueID)
     {
         // Select the current dialogue sound file
@@ -65,9 +71,9 @@ public class SoundManager : MonoBehaviour
         StartCoroutine(WaitAudio(dialogueID));
     }
 
-    /// <summary>
-    /// Plays a ding sound effect
-    /// </summary>
+    /**
+     * Plays a ding sound effect
+     */
     public void PlayDing()
     {
         dingSource.clip = ding;

@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/**
+ * Class that manages the logic behind the game score board
+ * which shows the "Ready Set Go" text, timer and winner
+ * insignia.
+ */
 public class Scoreboard : MonoBehaviour
 {
     public GameObject Stages;
@@ -39,6 +44,11 @@ public class Scoreboard : MonoBehaviour
         InvokeRepeating("ReadySetGo", 1.0f, 1.5f);
     }
 
+    /**
+     * Update called at every frame of game.
+     * 
+     * Updates the time on the timer as every second passes.
+     */
     void Update()
     {
         if (gameStarted)
@@ -60,15 +70,10 @@ public class Scoreboard : MonoBehaviour
         }
     }
 
-    void ShowGameStartScoreObjects()
-    {
-        CountText.SetActive(false);
-        TimerText.SetActive(true);
-        TimerImage.SetActive(true);
-        MenuText.SetActive(true);
-        ButtonImage.SetActive(true);
-    }
 
+    /**
+     * Function that shows the ReadySetGo text.
+     */
     void ReadySetGo()
     {
         countdownText.text = introText[index];
@@ -77,8 +82,20 @@ public class Scoreboard : MonoBehaviour
         {
             CancelInvoke("ReadySetGo");
             gameStarted = true;
-            Debug.Log("One Thread");
             Stages.GetComponent<StageManager>().ActivateStage(0);
         }
+    }
+
+    /**
+     * Function that shows the timer game objects and 
+     * hides the "ReadySetGo" text.
+     */
+    void ShowGameStartScoreObjects()
+    {
+        CountText.SetActive(false);
+        TimerText.SetActive(true);
+        TimerImage.SetActive(true);
+        MenuText.SetActive(true);
+        ButtonImage.SetActive(true);
     }
 }

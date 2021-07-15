@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_1_10;UNITY_2021_1;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_QUICK_SEARCH_MODULE;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_1_10;UNITY_2021_1;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_QUICK_SEARCH_MODULE;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -86,16 +86,14 @@
     <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/SoundFX.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/RotateObject.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimVisualLaser.cs" />
-    <Compile Include="Assets/VRHandGestures/GestureDetection/GestureLibrary.cs" />
     <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs" />
-    <Compile Include="Assets/Custom Scripts/HandTracking/GameManager.cs" />
+    <Compile Include="Assets/Custom Scripts/HandTracking/HTGameManager.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/MoviePlayerSample.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportDestination.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/MoveWithVelocity.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainButtonVisualController.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/VibrateController.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/TeleportPlayer.cs" />
-    <Compile Include="Assets/Custom Scripts/GameMenuLogic.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/SimpleCapsuleWithStickMovement.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Conditions/OnCollision.cs" />
     <Compile Include="Assets/Custom Scripts/ClimbInteractable.cs" />
@@ -120,7 +118,6 @@
     <Compile Include="Assets/Defaults Library/Scripts/Testing/DisplayFPS.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarAsset.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/SocialPlatformManager.cs" />
-    <Compile Include="Assets/VRHandGestures/GestureDetection/Libraries/ExampleGestures.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/PauseOnInputLoss.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/InteractableToolsCreator.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/FadeCanvasOnOverlap.cs" />
@@ -131,7 +128,6 @@
     <Compile Include="Assets/Custom Scripts/RockWall.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/FadeCanvas.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Controls/XRLever.cs" />
-    <Compile Include="Assets/VRHandGestures/GestureDetection/Libraries/ASLphabetGestures.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/ButtonController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportSupport.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs" />
@@ -161,7 +157,7 @@
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainCar.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportPoint.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/FingerTipPokeTool.cs" />
-    <Compile Include="Assets/VRHandGestures/GestureDetection/Libraries/SocialGestures.cs" />
+    <Compile Include="Assets/Custom Scripts/HandTracking/SocialGestures.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/GripPoses/Scripts/PoseEditHelper.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/CreateTrail.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Conditions/OnTilt.cs" />
@@ -209,7 +205,7 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/ColorGrabbable.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/MediaPlayerImage.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/DistanceGrab/Scripts/DistanceGrabberSample.cs" />
-    <Compile Include="Assets/VRHandGestures/GestureDetection/HandManager.cs" />
+    <Compile Include="Assets/Custom Scripts/HandTracking/HandManager.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/ToggleLight.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/HandsManager.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/ShowMessageFromList.cs" />
@@ -231,7 +227,6 @@
     <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPVersion.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarBody.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransitionBlink.cs" />
-    <Compile Include="Assets/VRHandGestures/GestureDetection/Libraries/ASLGestures.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/PinchStateModule.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs" />
     <Compile Include="Assets/Oculus/AudioManager/Scripts/Utils/InspectorNoteAttribute.cs" />
@@ -273,13 +268,13 @@
     <Compile Include="Assets/Defaults Library/Scripts/Actions/MatchRotation.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarTextureCopyManager.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/LaunchProjectile.cs" />
-    <Compile Include="Assets/Custom Scripts/HandTracking/HandGUI.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Conditions/OnVelocity.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTargetHandler.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/DestroyObject.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrackSegment.cs" />
+    <Compile Include="Assets/MainGameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/XingLightShader.shader" />

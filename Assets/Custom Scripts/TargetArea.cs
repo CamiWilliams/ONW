@@ -36,13 +36,17 @@ public class TargetArea : MonoBehaviour
                 Stage2.GetComponent<ThrowingSequence>().ShowBalls();
                 break;
             case 2:
+                StageManager.isStage3Done = true;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 break;
             case 3:
                 Stage4.GetComponent<RockWall>().ShowRocks();
                 break;
             case 4:
-                Finale.GetComponent<FinaleSequence>().PlayFinale();
+                if( other.name != "PlatformRock")
+                {
+                    Finale.GetComponent<FinaleSequence>().PlayFinale();
+                }
                 break;
             case 5: //Play game
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

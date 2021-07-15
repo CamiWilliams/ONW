@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Class to capture the ball being thrown into the boat, and 
+ * hiding the boat on trigger with Collider.
+ */
 public class BoatScoreArea : MonoBehaviour
 {
     public GameObject currentBoat;
@@ -17,6 +21,11 @@ public class BoatScoreArea : MonoBehaviour
         currentBoat.SetActive(true);
     }
 
+    /**
+     * Function attatched to collider to capture when a ball is thrown
+     * into the boat.
+     * @param other Object that collides with collider.
+     */
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Boat:" + currentBoat.name + "Collider" + other.gameObject.name);
@@ -31,6 +40,10 @@ public class BoatScoreArea : MonoBehaviour
         }
     }
 
+    /**
+     * Function to show the particles on the boat and hide it 
+     * after 2 seconds.
+     */
     private IEnumerator HideBoat()
     {
         float sec = 2f;

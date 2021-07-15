@@ -22,6 +22,10 @@ public class ThrowingSequence : MonoBehaviour
         Ball1.SetActive(false);
         Ball2.SetActive(false);
         Ball3.SetActive(false);
+        BallParticle.SetActive(false);
+        EasyParticle.SetActive(false);
+        MediumParticle.SetActive(false);
+        HardParticle.SetActive(false);
     }
 
     // Update is called once per frame
