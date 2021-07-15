@@ -38,31 +38,4 @@ Students should learn:
 
 Once the player has completed each of the 4 stages, they will hit the final button at the end of the course. Doing so will pause their time to mark completion and store their time as a final score.
 
-## Known TODOs (see open issues)
-
-### Features:
-* Change from 2 directional lights to 1
-* Timer running out/game over logic and UI
-* Stage 3: Simon Says
-	* Logic to return to main scene
-	* Animation to new scene
-* Main Menu
-	* Game instructions for each scene
-* Accessibility
-	* Ensure memory platforms are accessible
-	* Avatars to point to lever, guiding user through the game
-* Audio, sound effects, and controller haptics
-* VRCs
-
-### Bugs:
-* Sometimes there’s something blocking me from walking past the throwing game and idk what it is
-* Jitter is HAPPENING.
-
-### Nice to fix:
-* Environment cleanup
-* Beginning and ending circles
-* Ensure that the platform transport aligned with stump height in Stage 1
-* Cleanup project paths
-* Document all code
-* Record best time
-
+For known TODOs, feature requests, and bugs, see open issues.
