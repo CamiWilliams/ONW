@@ -19,10 +19,10 @@ public class ThrowingSequence : MonoBehaviour
 
     void Start()
     {
-        Ball1.SetActive(false);
-        Ball2.SetActive(false);
-        Ball3.SetActive(false);
-        BallParticle.SetActive(false);
+        //Ball1.SetActive(false);
+        //Ball2.SetActive(false);
+        //Ball3.SetActive(false);
+        //BallParticle.SetActive(false);
         EasyParticle.SetActive(false);
         MediumParticle.SetActive(false);
         HardParticle.SetActive(false);
@@ -62,7 +62,7 @@ public class ThrowingSequence : MonoBehaviour
         EasyParticle.SetActive(true);
         MediumParticle.SetActive(true);
         HardParticle.SetActive(true);
-        BallParticle.SetActive(true);
+        //BallParticle.SetActive(true);
         StartCoroutine(HideParticles());
     }
 
@@ -73,6 +73,6 @@ public class ThrowingSequence : MonoBehaviour
         EasyParticle.SetActive(false);
         MediumParticle.SetActive(false);
         HardParticle.SetActive(false);
-        BallParticle.SetActive(false);
+        //BallParticle.SetActive(false);
     }
 }

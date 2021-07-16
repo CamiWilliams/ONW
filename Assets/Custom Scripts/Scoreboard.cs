@@ -13,11 +13,14 @@ public class Scoreboard : MonoBehaviour
     public GameObject Stages;
 
     [Header("Scoreboard Objects")]
+    public GameObject WinnerMenu;
+    public GameObject CountDown;
+    public GameObject GameMenu;
+    public GameObject TimerInfo;
+
+    [Header("Scoreboard Text Areas")]
     public GameObject CountText;
     public GameObject TimerText;
-    public GameObject TimerImage;
-    public GameObject MenuText;
-    public GameObject ButtonImage;
 
     private Text countdownText;
     private Text timerText;
@@ -29,19 +32,28 @@ public class Scoreboard : MonoBehaviour
 
     void Start()
     {
-        CountText.SetActive(true);
-        TimerText.SetActive(false);
-        TimerImage.SetActive(false);
-        MenuText.SetActive(false);
-        ButtonImage.SetActive(false);
+        if (!StageManager.isStage3Done)
+        {
+            CountDown.SetActive(true);
+            TimerInfo.SetActive(false);
+            GameMenu.SetActive(false);
+            WinnerMenu.SetActive(false);
 
-        countdownText = CountText.GetComponent<Text>();
-        timerText = TimerText.GetComponent<Text>();
+            countdownText = CountText.GetComponent<Text>();
+            timerText = TimerText.GetComponent<Text>();
 
-        timeRemaining = 300;
+            timeRemaining = 300;
 
-        index = 0;
-        InvokeRepeating("ReadySetGo", 1.0f, 1.5f);
+            index = 0;
+            InvokeRepeating("ReadySetGo", 1.0f, 1.5f);
+        }
+        else
+        {
+            CountDown.SetActive(false);
+            TimerInfo.SetActive(false);
+            GameMenu.SetActive(false);
+            WinnerMenu.SetActive(false);
+        }
     }
 
     /**
@@ -92,10 +104,9 @@ public class Scoreboard : MonoBehaviour
      */
     void ShowGameStartScoreObjects()
     {
-        CountText.SetActive(false);
-        TimerText.SetActive(true);
-        TimerImage.SetActive(true);
-        MenuText.SetActive(true);
-        ButtonImage.SetActive(true);
+        CountDown.SetActive(false);
+        TimerInfo.SetActive(true);
+        GameMenu.SetActive(true);
+        WinnerMenu.SetActive(false);
     }
 }
