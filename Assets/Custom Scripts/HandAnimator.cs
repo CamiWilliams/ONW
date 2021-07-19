@@ -6,6 +6,10 @@ using UnityEngine.XR.Interaction.Toolkit;
 using TMPro;
 using System.Linq;
 
+/**
+ * Class to animate the hands for XRRig controllers
+ * according to controller button interactions.
+ */
 public class HandAnimator : MonoBehaviour
 {
     public ActionBasedController controller = null;

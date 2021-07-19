@@ -174,7 +174,7 @@
 92-->[:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:83:9-85:68
 93            android:name="unity.build-id"
 93-->[:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:84:13-42
-94            android:value="09c9e3ef-75f0-42d3-8646-12286d53288f" />
+94            android:value="b7c376ca-ff61-4e1c-9aa4-0673c6564000" />
 94-->[:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:85:13-65
 95        <meta-data
 95-->[:unityLibrary] /Users/cwillycs/Documents/ONW - June - Cami/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:86:9-88:39

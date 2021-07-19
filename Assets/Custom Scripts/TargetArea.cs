@@ -2,50 +2,48 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.XR.Interaction.Toolkit;
 
+/**
+ * Class to define logic for entering a target area,
+ * triggering the audio for the current stage.
+ */
 public class TargetArea : MonoBehaviour
 {
+    [Header("Manager References")]
+    public MainSoundManager soundManager;
+
+    [Header("Player")]
+    public XRRig rig;
+
+    [Header("Current Stage")]
     public int StageNum;
-    public GameObject Stages;
-    public GameObject Stage1;
-    public GameObject Stage2;
-    public GameObject Stage3;
-    public GameObject Stage4;
-    public GameObject Finale;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    /**
+     * Function that gets called when a player enters
+     * the target area.
+     * @param other The object that enters the collider.
+     */
     private void OnTriggerEnter(Collider other)
     {
         switch (StageNum)
         {
             case 0:
-                Stage1.GetComponent<MemoryPlatforms>().ShowStage1Animation();
+                soundManager.PlayDialogue(2);
                 break;
             case 1:
-                Stage2.GetComponent<ThrowingSequence>().ShowBalls();
+                soundManager.PlayDialogue(3);
                 break;
             case 2:
-                StageManager.isStage3Done = true;
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                soundManager.PlayDialogue(4);
                 break;
             case 3:
-                Stage4.GetComponent<RockWall>().ShowRocks();
+                soundManager.PlayDialogue(5);
                 break;
             case 4:
                 if( other.name != "PlatformRock")
                 {
-                    Finale.GetComponent<FinaleSequence>().PlayFinale();
+                    soundManager.PlayDialogue(6);
                 }
                 break;
             case 5: //Play game

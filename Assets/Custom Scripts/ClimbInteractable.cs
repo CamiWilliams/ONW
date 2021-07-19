@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
+/**
+ * Class to handle the climbable object interactions.
+ */
 public class ClimbInteractable : XRBaseInteractable
 {
     protected override void OnSelectEntered(SelectEnterEventArgs args)

@@ -5,10 +5,20 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 
+/**
+ * Class that handles the logic in Stage 1 when a
+ * character teleports onto a stump.
+ */
 public class StumpInteractable : XRBaseInteractable
 {
+    [Header("Manager References")]
+    public MainGameManager gameManager;
+
+    [Header("Stage 1 Game Objects")]
     public GameObject Stage1;
     public GameObject SignText;
+
+    [Header("Current Stump Information")]
     public string StumpName;
 
     private int[] memorySequence;
@@ -38,11 +48,15 @@ public class StumpInteractable : XRBaseInteractable
         }
     }
 
+    /**
+     * Function called when the user teleports to a stump.
+     */
     public void Teleported()
     {
         if (!isAnimating)
         {
             globalIndex++;
+            // Get the memory sequence
             Stage1.GetComponent<MemoryPlatforms>().setGlobalIndex(globalIndex);
 
             switch (memorySequence[globalIndex])
@@ -105,8 +119,15 @@ public class StumpInteractable : XRBaseInteractable
         }
     }
 
+    /**
+     * Function called if the user teleports to the correct
+     * stump in the sequence.
+     */
     private void correctTeleport()
     {
+        gameManager.GetComponent<MainGameManager>().CorrectActionHaptic();
+
+        // Update sign
         string stringBuilder = "";
         int index = 0;
 
@@ -129,6 +150,7 @@ public class StumpInteractable : XRBaseInteractable
 
         SignText.GetComponent<TextMeshProUGUI>().text = stringBuilder;
 
+        // If at the end of the memory sequence
         if (globalIndex == memorySequence.Length - 1)
         {
             // Completed round 1
@@ -136,8 +158,14 @@ public class StumpInteractable : XRBaseInteractable
         }
     }
 
+    /**
+     * Function called if the user teleports to the incorrect
+     * stump in the sequence.
+     */
     private void incorrectTeleport()
     {
+        gameManager.GetComponent<MainGameManager>().IncorrectActionHaptic();
+
         SignText.GetComponent<TextMeshProUGUI>().text = ":(";
         globalIndex = -1;
         Stage1.GetComponent<MemoryPlatforms>().setGlobalIndex(globalIndex);

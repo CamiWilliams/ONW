@@ -2,8 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Class to handle the logic for the ending finale sequence.
+ */
 public class FinaleSequence : MonoBehaviour
 {
+    [Header("Finale Game Objects")]
     public GameObject FinaleParticle;
     public GameObject WinnerParticle1;
     public GameObject WinnerParticle2;
@@ -18,12 +22,10 @@ public class FinaleSequence : MonoBehaviour
         WinnerMenu.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    /**
+     * Function to deactivate the timer game objects
+     * and activate the "winner" insignia and particles
+     */
     public void PlayFinale()
     {
         TimerInfo.SetActive(false);
@@ -36,6 +38,9 @@ public class FinaleSequence : MonoBehaviour
         StartCoroutine(HideParticles());
     }
 
+    /**
+     * Function to stop the finale particles.
+     */
     private IEnumerator HideParticles()
     {
         float sec = 3f;

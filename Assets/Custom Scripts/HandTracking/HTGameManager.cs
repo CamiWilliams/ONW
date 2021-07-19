@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/**
+ * Class that holds meta game logic persisting throughout each hand pose.
+ * 
+ * Handles logic for playing audio and displaying text voiceover, along with
+ * starting/stoping gesture detection according to prompt.
+ */
 public class HTGameManager : MonoBehaviour
 {
     [Header("Manager References")]
     public HandManager handManager;
-    public SoundManager soundManager;
+    public HTSoundManager soundManager;
 
     [Header("Displayed Dialogue")]
     [TextArea]
@@ -15,8 +21,6 @@ public class HTGameManager : MonoBehaviour
 
     [Header("Manipulated Objects")]
     public TextMesh speechText;
-    public GameObject leftHandPic;
-    public GameObject rightHandPic;
 
     private readonly float extendedValue = 0.44f;
     private int gestureIndex = 0;

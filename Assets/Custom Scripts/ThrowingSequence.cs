@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class ThrowingSequence : MonoBehaviour
 {
-    public GameObject Stages;
+    [Header("Manager References")]
+    public MainGameManager gameManager;
+    public MainSoundManager soundManager;
 
+    [Header("Ball Game Objects")]
     public GameObject Ball1;
     public GameObject Ball2;
     public GameObject Ball3;
 
+    [Header("Particle Game Objects")]
     public GameObject EasyParticle;
     public GameObject MediumParticle;
     public GameObject HardParticle;
@@ -41,7 +45,7 @@ public class ThrowingSequence : MonoBehaviour
         if (boatsHidden[0] && boatsHidden[1] && boatsHidden[2])
         {
             StageComplete();
-            Stages.GetComponent<StageManager>().ActivateStage(2);
+            gameManager.GetComponent<MainGameManager>().ActivateStage(2);
         }
     }
 
@@ -51,14 +55,13 @@ public class ThrowingSequence : MonoBehaviour
         Ball2.SetActive(true);
         Ball3.SetActive(true);
 
-        BallScript.resetPosition(Ball1);
-        BallScript.resetPosition(Ball2);
-        BallScript.resetPosition(Ball3);
+        resetBallPositions();
     }
 
     public void StageComplete()
     {
-        Debug.Log("Finished Stage 2!");
+        soundManager.PlayDing();
+
         EasyParticle.SetActive(true);
         MediumParticle.SetActive(true);
         HardParticle.SetActive(true);
@@ -74,5 +77,16 @@ public class ThrowingSequence : MonoBehaviour
         MediumParticle.SetActive(false);
         HardParticle.SetActive(false);
         //BallParticle.SetActive(false);
+    }
+
+    /**
+     * Function to reset the position of all the ball objects
+     * back into the crate.
+     */
+    public void resetBallPositions()
+    {
+        Ball1.transform.position = new Vector3(-7.41f, 1.16f, 2.473f);
+        Ball2.transform.position = new Vector3(-7.46f, 1.16f, 2.681f);
+        Ball3.transform.position = new Vector3(-7.1f, 1.16f, 2.644f);
     }
 }

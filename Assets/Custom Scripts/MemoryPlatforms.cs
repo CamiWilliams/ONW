@@ -7,7 +7,9 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class MemoryPlatforms : MonoBehaviour
 {
-    public GameObject Stages;
+    [Header("Manager References")]
+    public MainGameManager gameManager;
+    public MainSoundManager soundManager;
 
     [Header("Main Tree Stumps")]
     public GameObject PurplePlatform;
@@ -169,6 +171,8 @@ public class MemoryPlatforms : MonoBehaviour
 
     public void StageComplete()
     {
+        soundManager.PlayDing();
+
         SignParticle.SetActive(true);
         PurpleParticle.SetActive(true);
         TanParticle.SetActive(true);
@@ -177,7 +181,7 @@ public class MemoryPlatforms : MonoBehaviour
         RedParticle.SetActive(true);
         StartCoroutine(HideParticles());
 
-        Stages.GetComponent<StageManager>().ActivateStage(1);
+        gameManager.GetComponent<MainGameManager>().ActivateStage(1);
     }
 
     private IEnumerator HideParticles()

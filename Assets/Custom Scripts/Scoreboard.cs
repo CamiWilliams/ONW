@@ -10,7 +10,9 @@ using UnityEngine.UI;
  */
 public class Scoreboard : MonoBehaviour
 {
-    public GameObject Stages;
+    [Header("Manager References")]
+    public MainGameManager gameManager;
+    public MainSoundManager soundManager;
 
     [Header("Scoreboard Objects")]
     public GameObject WinnerMenu;
@@ -28,11 +30,13 @@ public class Scoreboard : MonoBehaviour
     private float timeRemaining;
     private int index;
     private string[] introText = new string[6] { "Get Ready", "3", "2", "1", "Go!", "" };
+
     private bool gameStarted = false;
+    private bool restartPrompted = false;
 
     void Start()
     {
-        if (!StageManager.isStage3Done)
+        if (!MainGameManager.isStage3Done)
         {
             CountDown.SetActive(true);
             TimerInfo.SetActive(false);
@@ -79,6 +83,12 @@ public class Scoreboard : MonoBehaviour
 
                 timerText.text = timeString;
             }
+
+            if (timeRemaining < 0 && !restartPrompted)
+            {
+                restartPrompted = true;
+                soundManager.PlayDialogue(7);
+            }
         }
     }
 
@@ -94,7 +104,7 @@ public class Scoreboard : MonoBehaviour
         {
             CancelInvoke("ReadySetGo");
             gameStarted = true;
-            Stages.GetComponent<StageManager>().ActivateStage(0);
+            gameManager.GetComponent<MainGameManager>().ActivateStage(0);
         }
     }
 

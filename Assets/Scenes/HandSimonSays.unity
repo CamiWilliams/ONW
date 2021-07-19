@@ -7572,8 +7572,6 @@ MonoBehaviour:
   - Okay okay! Very nice!
   - "Congratulations,\nyou have finished the stage, \nback to the races!"
   speechText: {fileID: 339461091}
-  leftHandPic: {fileID: 0}
-  rightHandPic: {fileID: 0}
 --- !u!4 &1303804434
 Transform:
   m_ObjectHideFlags: 0
@@ -9007,7 +9005,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594308571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.3, y: 0, z: 0}
+  m_LocalPosition: {x: -18.3, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 863221866}
@@ -9540,7 +9538,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f8042ad1763614d0cacb12fdedd2f601, type: 3}
   - {fileID: 8300000, guid: b177cd9ffd83f45f8a74ebdd832b9f3a, type: 3}
   - {fileID: 8300000, guid: ef5d3435241534662a9066aa54b8be9c, type: 3}
-  ding: {fileID: 8300000, guid: a05d082cd207b4b12a47c089be8b7a62, type: 3}
+  ding: {fileID: 8300000, guid: 72ba189c0168c40fa9594abb32344002, type: 3}
 --- !u!4 &1668345422
 Transform:
   m_ObjectHideFlags: 0

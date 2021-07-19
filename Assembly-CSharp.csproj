@@ -80,7 +80,7 @@
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RoomManager.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/HandPose.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs" />
-    <Compile Include="Assets/Custom Scripts/HandTracking/SoundManager.cs" />
+    <Compile Include="Assets/Custom Scripts/HandTracking/HTSoundManager.cs" />
     <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/SoundFXRef.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Plugins/Android/NativeVideoPlayer.cs" />
     <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/SoundFX.cs" />
@@ -219,7 +219,6 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/GrabbableCrosshair.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarAssetMesh.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainLocomotive.cs" />
-    <Compile Include="Assets/Custom Scripts/BallScript.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarRenderComponent.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportOrientationHandlerThumbstick.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainCrossingController.cs" />
@@ -246,7 +245,6 @@
     <Compile Include="Assets/Defaults Library/Scripts/Actions/PlayVideo.cs" />
     <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/PlayQuickSound.cs" />
-    <Compile Include="Assets/Custom Scripts/StageManager.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs" />
     <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/SoundEmitter.cs" />
     <Compile Include="Assets/Defaults Library/Scripts/Actions/ConvertValueToHue.cs" />
@@ -274,7 +272,8 @@
     <Compile Include="Assets/Defaults Library/Scripts/Actions/DestroyObject.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrackSegment.cs" />
-    <Compile Include="Assets/MainGameManager.cs" />
+    <Compile Include="Assets/Custom Scripts/MainGameManager.cs" />
+    <Compile Include="Assets/Custom Scripts/MainSoundManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/XingLightShader.shader" />

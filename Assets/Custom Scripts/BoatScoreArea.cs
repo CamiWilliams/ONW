@@ -8,12 +8,17 @@ using UnityEngine;
  */
 public class BoatScoreArea : MonoBehaviour
 {
+    [Header("Manager References")]
+    public MainGameManager gameManager;
+
+    [Header("Stage Game Object")]
+    public GameObject Stage2;
+
+    [Header("Current Boat Object References")]
     public GameObject currentBoat;
     public GameObject effectObject;
-
     public int boatNum;
 
-    public GameObject Stage2;
 
     private void Start()
     {
@@ -28,15 +33,16 @@ public class BoatScoreArea : MonoBehaviour
      */
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Boat:" + currentBoat.name + "Collider" + other.gameObject.name);
+        gameManager.GetComponent<MainGameManager>().CorrectActionHaptic();
+
         string name = other.gameObject.name;
         if (name == "Ball1" || name == "Ball2" || name == "Ball3")
         {
             Stage2.GetComponent<ThrowingSequence>().setHiddenBoat(boatNum);
-            Debug.Log("Ball in" + name);
             effectObject.SetActive(true);
-            BallScript.resetPosition(other.gameObject);
             StartCoroutine(HideBoat());
+
+            Stage2.GetComponent<ThrowingSequence>().resetBallPositions();
         }
     }
 

@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 
+/**
+ * Class to move a player controller in the physics direction
+ * if the player is touching a climbable object.
+ */
 public class Climber : MonoBehaviour
 {
     private CharacterController character;
@@ -41,7 +45,10 @@ public class Climber : MonoBehaviour
         }
     }
 
-    // Climbing computations
+    /** 
+     * Function to detect the climbing computations according
+     * to the velocity of the controller.
+     */
     void Climb(XRNode hand)
     {
         InputDevices.GetDeviceAtXRNode(hand).TryGetFeatureValue(CommonUsages.deviceVelocity, out Vector3 velocity);
