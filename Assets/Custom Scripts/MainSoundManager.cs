@@ -34,13 +34,16 @@ public class MainSoundManager : MonoBehaviour
         if (instance == null)
             // If instance doesnt't exist, set to this
             instance = this;
-        // If instance does exist...
+        /*// If instance does exist...
         else if (instance != this)
             // Destroy this so we have a single instance of SoundManager (singleton)
             Destroy(gameObject);
 
         // Set SoundManager to DontDestroyOnLoad so that it won't be destroyed when reloading the scene
         DontDestroyOnLoad(gameObject);
+
+        if (MainGameManager.isStage3Done)
+            dialogueSource = gameObject.AddComponent<AudioSource>();*/
     }
 
     /** 
@@ -59,6 +62,7 @@ public class MainSoundManager : MonoBehaviour
      */
     public void PlayDialogue(int dialogueID)
     {
+        Debug.Log("asdasdasdasdads " + dialogueSource);
         // Select the current dialogue sound file
         dialogueSource.clip = dialogue[dialogueID];
 

@@ -32,17 +32,16 @@ public class MainGameManager : MonoBehaviour
     public GameObject Finale;
 
     public static bool isStage3Done;
-    private bool debug = false;
+    private bool debug = true;
 
     void Start()
     {
         DontDestroyOnLoad(Scoreboard);
-        DontDestroyOnLoad(soundManager);
-
-        StartCoroutine(DelayDialogue(1, 0));
+        //DontDestroyOnLoad(soundManager);
 
         if (!isStage3Done)
         {
+            StartCoroutine(DelayDialogue(1, 0));
             Stage1.SetActive(false);
             Stage2.SetActive(false);
             Stage3.SetActive(false);

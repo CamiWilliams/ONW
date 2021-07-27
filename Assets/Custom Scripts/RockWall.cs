@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Class for logic on Stage 3 rockwall.
+ */
 public class RockWall : MonoBehaviour
 {
     public GameObject Rockwall;
