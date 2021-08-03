@@ -13,6 +13,7 @@ public class FinaleSequence : MonoBehaviour
     public GameObject WinnerParticle2;
     public GameObject WinnerMenu;
     public GameObject TimerInfo;
+    public GameObject NextLevelObjects;
 
     void Start()
     {
@@ -20,6 +21,7 @@ public class FinaleSequence : MonoBehaviour
         WinnerParticle1.SetActive(false);
         WinnerParticle2.SetActive(false);
         WinnerMenu.SetActive(false);
+        NextLevelObjects.SetActive(false);
     }
 
     /**
@@ -34,6 +36,7 @@ public class FinaleSequence : MonoBehaviour
         WinnerParticle1.SetActive(true);
         WinnerParticle2.SetActive(true);
         WinnerMenu.SetActive(true);
+        NextLevelObjects.SetActive(true);
 
         StartCoroutine(HideParticles());
     }
